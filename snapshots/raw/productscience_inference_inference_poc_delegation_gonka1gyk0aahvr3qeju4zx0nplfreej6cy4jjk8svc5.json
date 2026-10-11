@@ -1,0 +1,37 @@
+{
+ "route": "/productscience/inference/inference/poc_delegation/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493188,
+ "latest_block_before_query": {
+  "height": 6493188,
+  "time": "2026-10-10T22:38:52.111852453Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:59.492508+00:00",
+ "body": {
+  "delegations": [
+   {
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "delegator": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "delegate_to": "gonka1d694r00czmq75txghwjcuk07lxvc8d4ekgsha0"
+   },
+   {
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "delegator": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "delegate_to": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst"
+   },
+   {
+    "model_id": "moonshotai/Kimi-K2.6",
+    "delegator": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "delegate_to": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2"
+   },
+   {
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "delegator": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "delegate_to": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst"
+   }
+  ],
+  "refusals": [],
+  "intents": []
+ }
+}

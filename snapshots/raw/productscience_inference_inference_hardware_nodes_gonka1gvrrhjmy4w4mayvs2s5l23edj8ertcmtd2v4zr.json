@@ -1,0 +1,722 @@
+{
+ "route": "/productscience/inference/inference/hardware_nodes/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493183,
+ "latest_block_before_query": {
+  "height": 6493183,
+  "time": "2026-10-10T22:38:24.489676310Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:30.356054+00:00",
+ "body": {
+  "nodes": {
+   "participant": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+   "hardware_nodes": [
+    {
+     "local_id": "CA-LA-1",
+     "status": "INFERENCE",
+     "models": [
+      "deepseek-ai/DeepSeek-V4-Flash-0731"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H100 80GB HBM3 | 79GB",
+       "count": 4
+      }
+     ],
+     "host": "100.127.81.69",
+     "port": "8080",
+     "version": "3.0.16"
+    },
+    {
+     "local_id": "DA-DM-1-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.117.0.98",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-DM-2-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 4
+      }
+     ],
+     "host": "100.123.85.43",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-DM-3-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.110.207.48",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-DM-5-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.117.118.108",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-1-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.111.238.12",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-2-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.65.50.73",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-3-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.88.197.31",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-4-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.108.213.33",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-6-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.72.193.84",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-100-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.91.62.35",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-101-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.76.223.95",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-102-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.100.209.90",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-103-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.95.174.49",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-104-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.70.110.78",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-105-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.96.243.32",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-106-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.95.189.14",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-107-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.71.74.47",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-108-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.111.158.25",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-109-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.67.67.61",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-110-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.69.203.2",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-111-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.112.165.92",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-52",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.101.114.66",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-55",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.110.194.20",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-78-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.121.219.87",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-79-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.77.91.32",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-80-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.111.163.32",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-84-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.101.187.117",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-85-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.109.213.117",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-86-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.127.250.22",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-88-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.78.72.104",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-89-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.85.115.96",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-90-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.65.114.107",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-91-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.114.223.30",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-92-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.85.112.117",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-93-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.111.176.33",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-94-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.119.56.71",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-95-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.64.200.122",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-96-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.96.11.77",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-97-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.99.103.27",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-98-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.126.147.51",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-99-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.106.68.112",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "VR-JS-2",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA A100-SXM4-80GB | 80GB",
+       "count": 8
+      }
+     ],
+     "host": "100.127.198.56",
+     "port": "8080",
+     "version": "3.0.16"
+    },
+    {
+     "local_id": "vs-glm-4b200-6",
+     "status": "FAILED",
+     "models": [
+      "zai-org/GLM-5.3-Flash"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B200 | 179GB",
+       "count": 4
+      }
+     ],
+     "host": "100.85.208.125",
+     "port": "8080",
+     "version": "3.1.0"
+    }
+   ]
+  }
+ }
+}

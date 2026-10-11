@@ -1,0 +1,131 @@
+{
+ "route": "/productscience/inference/inference/dynamic_coefficients/421",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493183,
+ "latest_block_before_query": {
+  "height": 6493183,
+  "time": "2026-10-10T22:38:24.489676310Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:31.457331+00:00",
+ "body": {
+  "epoch_index": "421",
+  "params": {
+   "target_zone_bps": 500,
+   "step_min": {
+    "value": "5",
+    "exponent": -3
+   },
+   "step_max": {
+    "value": "5",
+    "exponent": -2
+   },
+   "bootstrap_step_max": {
+    "value": "25",
+    "exponent": -2
+   },
+   "bootstrap_share_bps": 100
+  },
+  "coefficients": [
+   {
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "weight_scale_factor": null,
+    "effective_coefficient": {
+     "value": "3024",
+     "exponent": -4
+    },
+    "config": {
+     "coeff_min": {
+      "value": "3024",
+      "exponent": -4
+     },
+     "coeff_max": {
+      "value": "3024",
+      "exponent": -4
+     },
+     "relative_difficulty": {
+      "value": "1",
+      "exponent": 0
+     },
+     "target_share_bps": 3334
+    },
+    "base_coefficient": {
+     "value": "3024",
+     "exponent": -4
+    },
+    "adaptive_step": {
+     "value": "5",
+     "exponent": -2
+    },
+    "prev_sign": -1,
+    "exclude_from_confirmation": false
+   },
+   {
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "weight_scale_factor": null,
+    "effective_coefficient": {
+     "value": "2706",
+     "exponent": -4
+    },
+    "config": {
+     "coeff_min": {
+      "value": "2214",
+      "exponent": -4
+     },
+     "coeff_max": {
+      "value": "2706",
+      "exponent": -4
+     },
+     "relative_difficulty": {
+      "value": "1541666666666",
+      "exponent": -12
+     },
+     "target_share_bps": 3333
+    },
+    "base_coefficient": {
+     "value": "2706",
+     "exponent": -4
+    },
+    "adaptive_step": {
+     "value": "5",
+     "exponent": -2
+    },
+    "prev_sign": 1,
+    "exclude_from_confirmation": false
+   },
+   {
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "weight_scale_factor": null,
+    "effective_coefficient": {
+     "value": "682",
+     "exponent": -3
+    },
+    "config": {
+     "coeff_min": {
+      "value": "558",
+      "exponent": -3
+     },
+     "coeff_max": {
+      "value": "682",
+      "exponent": -3
+     },
+     "relative_difficulty": {
+      "value": "2668169014084",
+      "exponent": -12
+     },
+     "target_share_bps": 3333
+    },
+    "base_coefficient": {
+     "value": "682",
+     "exponent": -3
+    },
+    "adaptive_step": {
+     "value": "5",
+     "exponent": -2
+    },
+    "prev_sign": 1,
+    "exclude_from_confirmation": false
+   }
+  ]
+ }
+}

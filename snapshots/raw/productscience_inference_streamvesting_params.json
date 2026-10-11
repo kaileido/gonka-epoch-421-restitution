@@ -1,0 +1,16 @@
+{
+ "route": "/productscience/inference/streamvesting/params",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493251,
+ "latest_block_before_query": {
+  "height": 6493251,
+  "time": "2026-10-10T22:44:24.402394541Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:44:32.522766+00:00",
+ "body": {
+  "params": {
+   "reward_vesting_period": "180"
+  }
+ }
+}

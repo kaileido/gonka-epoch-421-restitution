@@ -1,0 +1,52 @@
+{
+ "route": "/cosmos/gov/v1/params/deposit",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493251,
+ "latest_block_before_query": {
+  "height": 6493251,
+  "time": "2026-10-10T22:44:24.402394541Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:44:33.302201+00:00",
+ "body": {
+  "voting_params": null,
+  "deposit_params": {
+   "min_deposit": [
+    {
+     "denom": "ngonka",
+     "amount": "500000000000"
+    }
+   ],
+   "max_deposit_period": "86400s"
+  },
+  "tally_params": null,
+  "params": {
+   "min_deposit": [
+    {
+     "denom": "ngonka",
+     "amount": "500000000000"
+    }
+   ],
+   "max_deposit_period": "86400s",
+   "voting_period": "172800s",
+   "quorum": "0.250000000000000000",
+   "threshold": "0.500000000000000000",
+   "veto_threshold": "0.334000000000000000",
+   "min_initial_deposit_ratio": "0.000000000000000000",
+   "proposal_cancel_ratio": "0.500000000000000000",
+   "proposal_cancel_dest": "",
+   "expedited_voting_period": "43200s",
+   "expedited_threshold": "0.667000000000000000",
+   "expedited_min_deposit": [
+    {
+     "denom": "ngonka",
+     "amount": "1000000000000"
+    }
+   ],
+   "burn_vote_quorum": false,
+   "burn_proposal_deposit_prevote": false,
+   "burn_vote_veto": true,
+   "min_deposit_ratio": "0.010000000000000000"
+  }
+ }
+}

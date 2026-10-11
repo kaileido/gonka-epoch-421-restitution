@@ -1,0 +1,132 @@
+INPUTS (coefficients_snapshot.json heights {'min': 6493182, 'max': 6493190}, poc_snapshot.json heights {'min': 6493182, 'max': 6493186})
+  F = trunc(323000000000000 * exp(-0.000475)^(421-1)) = 264582291322574 ngonka = 264,582.291323 GNK
+  coefficients: MiniMaxAI/MiniMax-M2.7=0.3024, deepseek-ai/DeepSeek-V4-Flash-0731=0.2706, zai-org/GLM-5.3-Flash=0.682
+  eligible models (penalty_start_epoch <= 421): ['MiniMaxAI/MiniMax-M2.7', 'deepseek-ai/DeepSeek-V4-Flash-0731', 'zai-org/GLM-5.3-Flash']
+  delegation_share=0.05 no_participation_penalty=0.15 refusal_penalty=0.1
+  members: 29, T = sum of member weights = 862402
+  delegation records: 88, refusals: 0
+
+SELF-CHECK against epoch_performance_summary.rewarded_coins (settled, heights (6507164, 6507167))
+  29 members compared: 28 exact, 29 within 1 ngonka
+  settled at zero by the chain (downtime/status), applied after capping: ['gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5', 'gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y', 'gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4', 'gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk', 'gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t', 'gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589', 'gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c', 'gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq']
+
+COUNTERFACTUAL: gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr is a member of the subgroups it was voted out of
+  basis for the missing raw PoC weight: epoch-421 store commit count x time-normalisation factor f in [0.880697661947662, 0.8806990881458967] (bracketed from 166 node rows)
+  deepseek-ai/DeepSeek-V4-Flash-0731: raw 3522 -> trunc(0.2706 * 3522) = 953 weight
+  zai-org/GLM-5.3-Flash: raw 7721 -> trunc(0.682 * 7721) = 5265 weight
+  confirmation ratio applied to the counterfactual weight: 1 (override)
+
+ACTUAL (as recorded)
+  weight 133572  confirmation_weight 96486  raw_confirmation_weight 133572
+  effective = 96486; subgroup modes {'MiniMaxAI/MiniMax-M2.7': 'direct', 'deepseek-ai/DeepSeek-V4-Flash-0731': 'none', 'zai-org/GLM-5.3-Flash': 'none'}
+  penalty fraction 0.30 -> reward weight after penalties and transfers 67541
+  inbound transfers 0 from 0 delegations
+  reward = trunc(67541 * 264582291322574 / 862402) = 20721371863954 ngonka (chain: 20721371863954)
+COUNTERFACTUAL
+  weight 139790  confirmation_weight 139790  raw_confirmation_weight 139790
+  effective = 139790; subgroup modes {'MiniMaxAI/MiniMax-M2.7': 'direct', 'deepseek-ai/DeepSeek-V4-Flash-0731': 'direct', 'zai-org/GLM-5.3-Flash': 'direct'}
+  penalty fraction 0 -> reward weight 151888
+  inbound transfers 12098 from 6 delegations: gonka1346p2h8d..DeepSeek-V4-Flash-0731=81, gonka1scskt6wp..DeepSeek-V4-Flash-0731=4854, gonka1scskt6wp..GLM-5.3-Flash=4854, gonka1w29nvdy6..DeepSeek-V4-Flash-0731=19, gonka1w63xj0j6..DeepSeek-V4-Flash-0731=1145, gonka1w63xj0j6..GLM-5.3-Flash=1145
+  reward = trunc(151888 * 264582291322574 / 868620) = 46265196592759 ngonka
+
+LOSS = counterfactual - actual = 46265196592759 - 20721371863954 = 25543824728805 ngonka = 25,543.824728805 GNK
+  decomposition of reward weight 67541 -> 151888: own DeepSeek/GLM weight +43304, no-participation penalty lifted +28945, inbound delegation transfers +12098; denominator T 862402 -> 868620
+
+OTHER MEMBERS: reward change in the counterfactual (ngonka; delegators to this address lose their own penalty too)
+  gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh: +43095726979
+  gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8: -187720205325
+  gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2: -198953768944
+  gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8: -29648701631
+  gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m: -3483173391
+  gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv: +5765476743246
+  gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg: -4627393654
+  gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah: +10563050794
+  gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p: -11011747406
+  gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk: -114017742514
+  gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939: -50334710569
+  gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp: -6050531333
+  gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5: -1803080299
+  gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum: -92705999499
+  gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5: -27497889881
+  gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst: -196676309419
+  gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl: -6193284340
+  gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh: +1360462307311
+  gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk: -31313421323
+  gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le: -4469267246
+
+JOINT COUNTERFACTUAL: one scenario for the epoch, T 862402 -> 868620 (recomputed once)
+  delegation edges to gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr in the models it was voted out of: 9 from 6 addresses (6 from 4 not settled at zero)
+    gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh deepseek-ai/DeepSeek-V4-Flash-0731: actual none -> counterfactual delegate
+    gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t zai-org/GLM-5.3-Flash: actual none -> counterfactual delegate  (settled at zero by the chain: downtime/status)
+    gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589 deepseek-ai/DeepSeek-V4-Flash-0731: actual none -> counterfactual delegate  (settled at zero by the chain: downtime/status)
+    gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589 zai-org/GLM-5.3-Flash: actual none -> counterfactual delegate  (settled at zero by the chain: downtime/status)
+    gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv deepseek-ai/DeepSeek-V4-Flash-0731: actual none -> counterfactual delegate
+    gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv zai-org/GLM-5.3-Flash: actual none -> counterfactual delegate
+    gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah deepseek-ai/DeepSeek-V4-Flash-0731: actual none -> counterfactual delegate
+    gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh deepseek-ai/DeepSeek-V4-Flash-0731: actual none -> counterfactual delegate
+    gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh zai-org/GLM-5.3-Flash: actual none -> counterfactual delegate
+  delegators to the participant (own settled confirmation ratio kept):
+    gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh: weight 1633 cw/raw 1633/1633 effective 1633; penalty 0.15 -> 0; reward weight 1320 -> 1471
+    gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t: weight 7090 cw/raw 7090/7090 effective 7090; penalty 0.30 -> 0.15; reward weight 0 -> 0; zeroed before penalties and transfers
+    gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589: weight 4064 cw/raw 4064/4064 effective 4064; penalty 0.30 -> 0; reward weight 0 -> 0; zeroed before penalties and transfers
+    gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv: weight 133006 cw/raw 97089/133006 effective 97089; penalty 0.30 -> 0; reward weight 67963 -> 87381
+    gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah: weight 397 cw/raw 397/397 effective 397; penalty 0.15 -> 0; reward weight 322 -> 359
+    gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh: weight 37344 cw/raw 22908/37344 effective 22908; penalty 0.30 -> 0; reward weight 16036 -> 20618
+
+  PER-ADDRESS (ngonka; actual = chain rewarded_coins, model = recalculated actual)
+  address                                                 actual            model   counterfactual      cf - actual
+  gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5                 0                0                0               +0
+  gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh      404971955707     404971955707     448067682686     +43095726979
+  gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8    26223468116722   26223468116721   26035747911396    -187720205326
+  gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2    27792734445087   27792734445087   27593780676143    -198953768944
+  gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk    16055297262173   16055297262173   15941279519659    -114017742514
+  gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y                 0                0                0               +0
+  gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4                 0                0                0               +0
+  gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk                 0                0                0               +0
+  gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8     4141758637914    4141758637914    4112109936283     -29648701631
+  gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939     7031478979434    7031478979434    6981144268865     -50334710569
+  gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp      845225559070     845225559070     839175027737      -6050531333
+  gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr    20721371863954   20721371863954   46265196592759  +25543824728805
+  gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5      251880284572     251880284572     250077204273      -1803080299
+  gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum    12950512268418   12950512268418   12857806268919     -92705999499
+  gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5     4351914539171    4351914539171    4324416649290     -27497889881
+  gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst    27474586022308   27474586022308   27277909712889    -196676309419
+  gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m      486579940720     486579940720     483096767329      -3483173391
+  gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl      865167359919     865167359919     858974075579      -6193284340
+  gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t                 0                0                0               +0
+  gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589                 0                0                0               +0
+  gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv    20850840171006   20850840171006   26616316914252   +5765476743246
+  gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg      646421144450     646421144450     641793750796      -4627393654
+  gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c                 0                0                0               +0
+  gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq                 0                0                0               +0
+  gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah       98788613437      98788613437     109351664231     +10563050794
+  gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh     4919795667970    4919795667970    6280257975281   +1360462307311
+  gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk     4374310715510    4374310715510    4342997294187     -31313421323
+  gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le      624331765048     624331765048     619862497802      -4469267246
+  gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p     1538279837815    1538279837815    1527268090409     -11011747406
+
+  RECIPIENTS: settled loss = counterfactual - actual
+    gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr  46265196592759 - 20721371863954 = 25543824728805 ngonka = 25,543.824728805 GNK
+    gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv  26616316914252 - 20850840171006 = 5765476743246 ngonka = 5,765.476743246 GNK
+    gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh  6280257975281 - 4919795667970 = 1360462307311 ngonka = 1,360.462307311 GNK
+    gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh  448067682686 - 404971955707 = 43095726979 ngonka = 43.095726979 GNK
+    gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah  109351664231 - 98788613437 = 10563050794 ngonka = 10.563050794 GNK
+    TOTAL 32723422557135 ngonka = 32,723.422557135 GNK across 5 recipients
+  LOWER IN THE COUNTERFACTUAL (not recipients, nothing clawed back):
+    gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2  -198953768944 ngonka = -198.953768944 GNK
+    gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst  -196676309419 ngonka = -196.676309419 GNK
+    gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8  -187720205326 ngonka = -187.720205326 GNK
+    gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk  -114017742514 ngonka = -114.017742514 GNK
+    gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum  -92705999499 ngonka = -92.705999499 GNK
+    gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939  -50334710569 ngonka = -50.334710569 GNK
+    gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk  -31313421323 ngonka = -31.313421323 GNK
+    gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8  -29648701631 ngonka = -29.648701631 GNK
+    gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5  -27497889881 ngonka = -27.497889881 GNK
+    gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p  -11011747406 ngonka = -11.011747406 GNK
+    gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl  -6193284340 ngonka = -6.193284340 GNK
+    gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp  -6050531333 ngonka = -6.050531333 GNK
+    gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg  -4627393654 ngonka = -4.627393654 GNK
+    gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le  -4469267246 ngonka = -4.469267246 GNK
+    gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m  -3483173391 ngonka = -3.483173391 GNK
+    gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5  -1803080299 ngonka = -1.803080299 GNK
+    total -966507226775 ngonka = -966.507226775 GNK across 16 addresses

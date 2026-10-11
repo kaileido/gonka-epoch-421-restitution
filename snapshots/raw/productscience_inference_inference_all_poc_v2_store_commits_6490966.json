@@ -1,0 +1,327 @@
+{
+ "route": "/productscience/inference/inference/all_poc_v2_store_commits/6490966",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493182,
+ "latest_block_before_query": {
+  "height": 6493182,
+  "time": "2026-10-10T22:38:18.939918023Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:29.157371+00:00",
+ "body": {
+  "commits": [
+   {
+    "participant_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+    "count": 4096,
+    "root_hash": "69YK9NSuLk1SYWoRbj/XfzQoC77BtYLMap6V1kyh0EA=",
+    "hex_pub_key": "02476f7757d06e99dc1ff964a78c573770f1da0bef4ead6c63c7db4d6b2cfeb321",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+    "count": 3152,
+    "root_hash": "//UIm4YYRabVA8vZJYVTGqxQMArSRs+oXP3rp2JXrlg=",
+    "hex_pub_key": "02476f7757d06e99dc1ff964a78c573770f1da0bef4ead6c63c7db4d6b2cfeb321",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+    "count": 26624,
+    "root_hash": "8p+3h6nmrM9b3yWwtuGKcqg86Zc3J3WhdLG/dLbH0z4=",
+    "hex_pub_key": "027d23b0a37d657603f7897ce59766e97787cfe16dd3953ff98a42fce3d599f73a",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+    "count": 5280,
+    "root_hash": "gJfUVzs1A3mVCoFMeZ07D7Q5N3bLvJVTwhgcoUBlXpU=",
+    "hex_pub_key": "03f10763a0966c01fc7af4f98110d225db13326b5040b42ca5e453df62daf1c5fc",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+    "count": 4384,
+    "root_hash": "0pl9h4Z8I2JSfTzBv3arMvXRvbGNZEU9D40H0sTUako=",
+    "hex_pub_key": "03f10763a0966c01fc7af4f98110d225db13326b5040b42ca5e453df62daf1c5fc",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk",
+    "count": 16128,
+    "root_hash": "BXPmBxqSaGCgAH61hA/HCW1If7NYNWuOg0Ccu41oRdU=",
+    "hex_pub_key": "038b9dcfb2a4cee9ab1821b5cc1978cd77295bb415d26139081fd75f5136d51703",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+    "count": 51904,
+    "root_hash": "umD/+KABGdigQuM2FuKiH+W9BnENy7y80Am/NlaNjtQ=",
+    "hex_pub_key": "026e19978a03a055e0d833b21c58dfca063284cf043bab059dc1e8fdc9142aa111",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+    "count": 10304,
+    "root_hash": "alPJuKrToZqGRfLMLm8wITujQx8y7qnDLSolssP/8n8=",
+    "hex_pub_key": "026e19978a03a055e0d833b21c58dfca063284cf043bab059dc1e8fdc9142aa111",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4",
+    "count": 96768,
+    "root_hash": "31oGw7bZrt4izrDokhC5ibINM7gSWBDq9X7iQCgA/Q4=",
+    "hex_pub_key": "02b3dc1ca5659ba2b8502996ff5f5277d9424705bc1c23dd2194bc343334490b78",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y",
+    "count": 16416,
+    "root_hash": "sVGPqdmn9asegMiwmlwWAhj1DqMS4oaJ+YhWPRCekGg=",
+    "hex_pub_key": "03e14d80c27e9cddcc9c497aa2c7801b3cbb44e6fb49e41b90fef63c724152bed3",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "count": 3424,
+    "root_hash": "CGu55LSMv/U35FNCiPzmjaqgTBvGiMcAsN1ecTolYuM=",
+    "hex_pub_key": "02ba681e18d164b0beb7e6d813297ffc4e886456a23876054d5c83719157c500a9",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "count": 479168,
+    "root_hash": "BWMHd4+h/Z7fQOH8krYOWSRIQ85J3fgb7hKCcycrXB8=",
+    "hex_pub_key": "03ec5f9bf7833eb50bb97742d137907a80818ab2146ecf0bc9389f2701abbe3cc1",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "count": 4000,
+    "root_hash": "39PR8iewUhsrdWC3r8Hi+RQLmkCbgkct51sy6+51C9g=",
+    "hex_pub_key": "03ec5f9bf7833eb50bb97742d137907a80818ab2146ecf0bc9389f2701abbe3cc1",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "count": 8768,
+    "root_hash": "ejDqmY6+ugGO68FWZt2G2MjBNGd//W6qCgKIE8BfuYU=",
+    "hex_pub_key": "03ec5f9bf7833eb50bb97742d137907a80818ab2146ecf0bc9389f2701abbe3cc1",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c",
+    "count": 15624,
+    "root_hash": "ojI71vm/aXRECksYs7cjv02BQ24wLIf3J8b3+/fSWK8=",
+    "hex_pub_key": "02e18a35210dcf65d41beb0c8d8fe04e7e942510c617658e0e353cdab04b086d5d",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+    "count": 5280,
+    "root_hash": "Efdt30zvqo8/sKY+F+02QAotctmWL7unP4U5C3bsEjQ=",
+    "hex_pub_key": "03d097dab929d18c5502f296d9bbf89d7114d765049f0fe01e340d0f5b4f582a18",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+    "count": 8352,
+    "root_hash": "6A+wfItQrfAwgQZmAqTT+Cdrwxk/PPJUx8yXxg9gGjw=",
+    "hex_pub_key": "03d097dab929d18c5502f296d9bbf89d7114d765049f0fe01e340d0f5b4f582a18",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "count": 140224,
+    "root_hash": "yGGiPvurxrWbPJiNihjYsrf8GSDDCvBgHopFGDf8qI8=",
+    "hex_pub_key": "035b2494a2eb55e12e37f213e2752fe89a17ba183ec1ebdfe3cce3844e051aec11",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5",
+    "count": 126464,
+    "root_hash": "NOWZCUnl+6MOJPzSfQ8acZ0nsAtZqhvGxw9U4avKg1o=",
+    "hex_pub_key": "02f5c0d5dba93fc1639242198e6abf22f49ff54dd4276499e276c595fd4fd2247b",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589",
+    "count": 15264,
+    "root_hash": "+2/4REXk5z2wAeiHWvL8b/OxO4CAu31FXh+7iMlfo1A=",
+    "hex_pub_key": "02f3278a99db9e8fed04e462e132b4e85e82fd8694a01091ee0f7571d07aa5b4a6",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "count": 481664,
+    "root_hash": "H5/TlO45xDBDWMxoyCUg8kC6YHEJVMyftLsEDToKqyM=",
+    "hex_pub_key": "03af831d718768e2e9e694d26a48fabaa917372a282514ebf53b56935616a86e59",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "count": 40640,
+    "root_hash": "zLjn2mllhinoyZVXmLuB9Pig/y6dy2xkZbl8M+vkz9s=",
+    "hex_pub_key": "02db69cc48d2f63f1fc161a9a54551bfb0d4cf14e1d5a66c74d41d9e8a16ac8318",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "count": 153184,
+    "root_hash": "sYN30XsZiIzyER2UfwA4/jH61reEADHeRhntUMaHfHM=",
+    "hex_pub_key": "02db69cc48d2f63f1fc161a9a54551bfb0d4cf14e1d5a66c74d41d9e8a16ac8318",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "count": 61184,
+    "root_hash": "mlbBnNUPsiv/m0pf9seN3a5+Bd1qDficnX77WqtS8CY=",
+    "hex_pub_key": "02db69cc48d2f63f1fc161a9a54551bfb0d4cf14e1d5a66c74d41d9e8a16ac8318",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "count": 41984,
+    "root_hash": "slB7dDRsLVanYG/FtWQI+xBHksLXMZecY6V2dVIND+E=",
+    "hex_pub_key": "0221c7a5e1a4015685a16aae5b64377adc09b20639df3ae8e15c635e5b657aa319",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "count": 157376,
+    "root_hash": "5lWUdUhhGyWaDfHTVeIIJIUUXBIFoGZzcy8r/69bA0c=",
+    "hex_pub_key": "0221c7a5e1a4015685a16aae5b64377adc09b20639df3ae8e15c635e5b657aa319",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "count": 31456,
+    "root_hash": "Znr3m7zpI9HVlWj0xK+5dubSiGEjNhJ41HlsJN/1stA=",
+    "hex_pub_key": "0221c7a5e1a4015685a16aae5b64377adc09b20639df3ae8e15c635e5b657aa319",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "count": 5792,
+    "root_hash": "0Xd2Hqp3KuDJvUG0PYuyTtMlVGeUf5tw41Nl/4A5+W8=",
+    "hex_pub_key": "03eca8933c0b6f2227da3cd38ab8ce35ec643f7e8060cbfa4710d732b6c29c9cd1",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "count": 26912,
+    "root_hash": "//8yXxHSUhFlPpZ8cko3yGwXk6ev0e7UCC4911eEn0M=",
+    "hex_pub_key": "03eca8933c0b6f2227da3cd38ab8ce35ec643f7e8060cbfa4710d732b6c29c9cd1",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "count": 5728,
+    "root_hash": "brkOfbCDBMZuWQF3D/P8VNo9AMvhYZZlNJ6AYqubWHY=",
+    "hex_pub_key": "03eca8933c0b6f2227da3cd38ab8ce35ec643f7e8060cbfa4710d732b6c29c9cd1",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum",
+    "count": 181856,
+    "root_hash": "ETVJ8D2qgDcNKCO2txrx3ONj3a+cLPGGxnbwiF0EANo=",
+    "hex_pub_key": "02e43c673a85721e1255df2ee551cbbcac978b8a575f86f34c1ea2d40abed7c545",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "count": 152736,
+    "root_hash": "qYlFxe9J4U6DOQEbxn/uxo7Z4XUUCawwbzPJ9JmKbsM=",
+    "hex_pub_key": "03a1b25d015f0e33cfe4b9d2b675583f245752599f6567c069ebc047e7c80c543e",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "count": 21824,
+    "root_hash": "UABTxOS92bpuSlh2ML2jVZSjtr2sPHA4Az5gz/Qi9Dg=",
+    "hex_pub_key": "03a1b25d015f0e33cfe4b9d2b675583f245752599f6567c069ebc047e7c80c543e",
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "count": 37792,
+    "root_hash": "Zo1fB2NzbrewmFnRsaC4DN0zehtPKVAuqkWKTIPdOB4=",
+    "hex_pub_key": "03a1b25d015f0e33cfe4b9d2b675583f245752599f6567c069ebc047e7c80c543e",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "count": 176672,
+    "root_hash": "OCtxq5uPLkesLSn7shVr6fcxh0vgdqkQhNkVixXpK7k=",
+    "hex_pub_key": "036b7618df0a23ba76e16fa26dde0313ceb2582e1e1afa7059d54b835d03740d0d",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "count": 9120,
+    "root_hash": "8TsoezcyPhwAjXxICpCBJ8LMVqU1ddf34rI3x87rsJ4=",
+    "hex_pub_key": "036b7618df0a23ba76e16fa26dde0313ceb2582e1e1afa7059d54b835d03740d0d",
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq",
+    "count": 41472,
+    "root_hash": "wnEZ4Vyci6JEkBj9sSW9i1ajWNIK7cCKRt2mSt8omAM=",
+    "hex_pub_key": "03e63a468f8b0f4d8a740e6d4eae46798aaccdb061fcd7674f398715a89280618e",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939",
+    "count": 129024,
+    "root_hash": "a6CZMibEguoNS8BF4/MNHg2AFwgJyQvULvn583YBtaE=",
+    "hex_pub_key": "033cdc98680a47083f4f1165ce89d8b1d3a24f395f3e0a9a247017117a898515a7",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   },
+   {
+    "participant_address": "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8",
+    "count": 22080,
+    "root_hash": "sNHNMr9oHfj/wI+syZ7pbPZpGiT89TcK5mKUBgmtYes=",
+    "hex_pub_key": "03e7bfaac24aaca9dda1038e201e17fac8ea72124590be7161ae57b074fa6aba16",
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "tree_depth": 24
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "route": "/productscience/inference/inference/confirmation_poc_events/420",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493186,
+ "latest_block_before_query": {
+  "height": 6493186,
+  "time": "2026-10-10T22:38:40.962556734Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:47.806060+00:00",
+ "body": {
+  "events": [
+   {
+    "epoch_index": "420",
+    "event_sequence": "0",
+    "trigger_height": "6484820",
+    "generation_start_height": "6484822",
+    "phase": "CONFIRMATION_POC_COMPLETED",
+    "poc_seed_block_hash": "fa0d2df63ea4baa88e1849dd0f8322e397c4f5161e9691988b86e4a81bcde7d1"
+   }
+  ]
+ }
+}

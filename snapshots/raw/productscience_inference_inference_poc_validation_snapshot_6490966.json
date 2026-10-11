@@ -1,0 +1,15 @@
+{
+ "route": "/productscience/inference/inference/poc_validation_snapshot/6490966",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493183,
+ "latest_block_before_query": {
+  "height": 6493183,
+  "time": "2026-10-10T22:38:24.489676310Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:30.575271+00:00",
+ "body": {
+  "snapshot": null,
+  "found": false
+ }
+}

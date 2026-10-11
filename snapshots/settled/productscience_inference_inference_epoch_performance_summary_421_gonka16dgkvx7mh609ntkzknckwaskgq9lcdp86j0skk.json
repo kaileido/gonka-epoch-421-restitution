@@ -1,0 +1,25 @@
+{
+ "route": "/productscience/inference/inference/epoch_performance_summary/421/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6507166,
+ "latest_block_before_query": {
+  "height": 6507166,
+  "time": "2026-10-11T19:17:41.233397072Z"
+ },
+ "fetched_at_utc": "2026-10-11T19:17:47.292120+00:00",
+ "body": {
+  "epochPerformanceSummary": {
+   "epoch_index": "421",
+   "participant_id": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+   "inference_count": "3706",
+   "missed_requests": "16",
+   "earned_coins": "902602871",
+   "rewarded_coins": "16055297262173",
+   "burned_coins": "0",
+   "validated_inferences": "3555",
+   "invalidated_inferences": "151",
+   "claimed": true
+  }
+ }
+}

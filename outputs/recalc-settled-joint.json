@@ -1,0 +1,410 @@
+{
+ "address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+ "epoch": 421,
+ "mode": "settled",
+ "reward_source": "epoch_performance_summary.rewarded_coins (settled, heights (6507164, 6507167))",
+ "F": 264582291322574,
+ "self_check": {
+  "compared": 29,
+  "exact": 28,
+  "within_1": 29,
+  "mismatches": {}
+ },
+ "missing_raw": {
+  "deepseek-ai/DeepSeek-V4-Flash-0731": 3522,
+  "zai-org/GLM-5.3-Flash": 7721
+ },
+ "added_weight": 6218,
+ "basis": "epoch-421 store commit count x time-normalisation factor f in [0.880697661947662, 0.8806990881458967] (bracketed from 166 node rows)",
+ "actual": {
+  "weight": 133572,
+  "cw": 96486,
+  "reward_weight": 67541,
+  "penalty": "0.30",
+  "model_reward": 20721371863954,
+  "chain_reward": 20721371863954,
+  "T": 862402
+ },
+ "counterfactual": {
+  "weight": 139790,
+  "cw": 139790,
+  "reward_weight": 151888,
+  "penalty": "0",
+  "inbound": [
+   [
+    "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh",
+    "deepseek-ai/DeepSeek-V4-Flash-0731",
+    81
+   ],
+   [
+    "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "deepseek-ai/DeepSeek-V4-Flash-0731",
+    4854
+   ],
+   [
+    "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "zai-org/GLM-5.3-Flash",
+    4854
+   ],
+   [
+    "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah",
+    "deepseek-ai/DeepSeek-V4-Flash-0731",
+    19
+   ],
+   [
+    "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "deepseek-ai/DeepSeek-V4-Flash-0731",
+    1145
+   ],
+   [
+    "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "zai-org/GLM-5.3-Flash",
+    1145
+   ]
+  ],
+  "reward": 46265196592759,
+  "T": 868620
+ },
+ "loss_ngonka": 25543824728805,
+ "loss_gnk": "25543.824728805",
+ "others_delta_ngonka": {
+  "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh": 43095726979,
+  "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8": -187720205325,
+  "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2": -198953768944,
+  "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8": -29648701631,
+  "gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m": -3483173391,
+  "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv": 5765476743246,
+  "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg": -4627393654,
+  "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah": 10563050794,
+  "gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p": -11011747406,
+  "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk": -114017742514,
+  "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939": -50334710569,
+  "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp": -6050531333,
+  "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5": -1803080299,
+  "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum": -92705999499,
+  "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5": -27497889881,
+  "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst": -196676309419,
+  "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl": -6193284340,
+  "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh": 1360462307311,
+  "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk": -31313421323,
+  "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le": -4469267246
+ },
+ "joint": {
+  "T_actual": 862402,
+  "T_counterfactual": 868620,
+  "edges": [
+   [
+    "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh",
+    "deepseek-ai/DeepSeek-V4-Flash-0731"
+   ],
+   [
+    "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+    "zai-org/GLM-5.3-Flash"
+   ],
+   [
+    "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589",
+    "deepseek-ai/DeepSeek-V4-Flash-0731"
+   ],
+   [
+    "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589",
+    "zai-org/GLM-5.3-Flash"
+   ],
+   [
+    "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "deepseek-ai/DeepSeek-V4-Flash-0731"
+   ],
+   [
+    "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "zai-org/GLM-5.3-Flash"
+   ],
+   [
+    "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah",
+    "deepseek-ai/DeepSeek-V4-Flash-0731"
+   ],
+   [
+    "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "deepseek-ai/DeepSeek-V4-Flash-0731"
+   ],
+   [
+    "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "zai-org/GLM-5.3-Flash"
+   ]
+  ],
+  "rows": [
+   {
+    "address": "gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh",
+    "actual": 404971955707,
+    "model": 404971955707,
+    "counterfactual": 448067682686,
+    "delta": 43095726979
+   },
+   {
+    "address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "actual": 26223468116722,
+    "model": 26223468116721,
+    "counterfactual": 26035747911396,
+    "delta": -187720205326
+   },
+   {
+    "address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "actual": 27792734445087,
+    "model": 27792734445087,
+    "counterfactual": 27593780676143,
+    "delta": -198953768944
+   },
+   {
+    "address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "actual": 16055297262173,
+    "model": 16055297262173,
+    "counterfactual": 15941279519659,
+    "delta": -114017742514
+   },
+   {
+    "address": "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8",
+    "actual": 4141758637914,
+    "model": 4141758637914,
+    "counterfactual": 4112109936283,
+    "delta": -29648701631
+   },
+   {
+    "address": "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939",
+    "actual": 7031478979434,
+    "model": 7031478979434,
+    "counterfactual": 6981144268865,
+    "delta": -50334710569
+   },
+   {
+    "address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+    "actual": 845225559070,
+    "model": 845225559070,
+    "counterfactual": 839175027737,
+    "delta": -6050531333
+   },
+   {
+    "address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "actual": 20721371863954,
+    "model": 20721371863954,
+    "counterfactual": 46265196592759,
+    "delta": 25543824728805
+   },
+   {
+    "address": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "actual": 251880284572,
+    "model": 251880284572,
+    "counterfactual": 250077204273,
+    "delta": -1803080299
+   },
+   {
+    "address": "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum",
+    "actual": 12950512268418,
+    "model": 12950512268418,
+    "counterfactual": 12857806268919,
+    "delta": -92705999499
+   },
+   {
+    "address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "actual": 4351914539171,
+    "model": 4351914539171,
+    "counterfactual": 4324416649290,
+    "delta": -27497889881
+   },
+   {
+    "address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "actual": 27474586022308,
+    "model": 27474586022308,
+    "counterfactual": 27277909712889,
+    "delta": -196676309419
+   },
+   {
+    "address": "gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m",
+    "actual": 486579940720,
+    "model": 486579940720,
+    "counterfactual": 483096767329,
+    "delta": -3483173391
+   },
+   {
+    "address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+    "actual": 865167359919,
+    "model": 865167359919,
+    "counterfactual": 858974075579,
+    "delta": -6193284340
+   },
+   {
+    "address": "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "actual": 20850840171006,
+    "model": 20850840171006,
+    "counterfactual": 26616316914252,
+    "delta": 5765476743246
+   },
+   {
+    "address": "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg",
+    "actual": 646421144450,
+    "model": 646421144450,
+    "counterfactual": 641793750796,
+    "delta": -4627393654
+   },
+   {
+    "address": "gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq",
+    "actual": 0,
+    "model": 0,
+    "counterfactual": 0,
+    "delta": 0
+   },
+   {
+    "address": "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah",
+    "actual": 98788613437,
+    "model": 98788613437,
+    "counterfactual": 109351664231,
+    "delta": 10563050794
+   },
+   {
+    "address": "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "actual": 4919795667970,
+    "model": 4919795667970,
+    "counterfactual": 6280257975281,
+    "delta": 1360462307311
+   },
+   {
+    "address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+    "actual": 4374310715510,
+    "model": 4374310715510,
+    "counterfactual": 4342997294187,
+    "delta": -31313421323
+   },
+   {
+    "address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+    "actual": 624331765048,
+    "model": 624331765048,
+    "counterfactual": 619862497802,
+    "delta": -4469267246
+   },
+   {
+    "address": "gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p",
+    "actual": 1538279837815,
+    "model": 1538279837815,
+    "counterfactual": 1527268090409,
+    "delta": -11011747406
+   }
+  ],
+  "delegators": {
+   "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh": {
+    "penalty_actual": "0.15",
+    "penalty_counterfactual": "0",
+    "reward_weight_actual": 1320,
+    "reward_weight_counterfactual": 1471,
+    "zeroed": false
+   },
+   "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t": {
+    "penalty_actual": "0.30",
+    "penalty_counterfactual": "0.15",
+    "reward_weight_actual": 0,
+    "reward_weight_counterfactual": 0,
+    "zeroed": true
+   },
+   "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589": {
+    "penalty_actual": "0.30",
+    "penalty_counterfactual": "0",
+    "reward_weight_actual": 0,
+    "reward_weight_counterfactual": 0,
+    "zeroed": true
+   },
+   "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv": {
+    "penalty_actual": "0.30",
+    "penalty_counterfactual": "0",
+    "reward_weight_actual": 67963,
+    "reward_weight_counterfactual": 87381,
+    "zeroed": false
+   },
+   "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah": {
+    "penalty_actual": "0.15",
+    "penalty_counterfactual": "0",
+    "reward_weight_actual": 322,
+    "reward_weight_counterfactual": 359,
+    "zeroed": false
+   },
+   "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh": {
+    "penalty_actual": "0.30",
+    "penalty_counterfactual": "0",
+    "reward_weight_actual": 16036,
+    "reward_weight_counterfactual": 20618,
+    "zeroed": false
+   }
+  },
+  "recipients": {
+   "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh": 43095726979,
+   "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr": 25543824728805,
+   "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv": 5765476743246,
+   "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah": 10563050794,
+   "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh": 1360462307311
+  },
+  "total_ngonka": 32723422557135,
+  "total_gnk": "32723.422557135",
+  "lower": {
+   "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8": -187720205326,
+   "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2": -198953768944,
+   "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk": -114017742514,
+   "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8": -29648701631,
+   "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939": -50334710569,
+   "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp": -6050531333,
+   "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5": -1803080299,
+   "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum": -92705999499,
+   "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5": -27497889881,
+   "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst": -196676309419,
+   "gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m": -3483173391,
+   "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl": -6193284340,
+   "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg": -4627393654,
+   "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk": -31313421323,
+   "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le": -4469267246,
+   "gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p": -11011747406
+  }
+ }
+}

@@ -1,0 +1,1866 @@
+{
+ "description": "What the chain recorded about the PoC of gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr in epochs 420 and 421. All values are copied from the raw REST responses listed in 'sources'.",
+ "participant": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+ "epoch": 421,
+ "heights": {
+  "min": 6493182,
+  "max": 6493186
+ },
+ "epochs": {
+  "420": {
+   "poc_stage_start_block_height": 6475575,
+   "store_commits": "none returned (pruned or no commit)",
+   "store_commits_total_rows_in_stage": 0,
+   "mlnode_weight_distributions": "none returned",
+   "validations": "none returned (pruned)",
+   "epoch_group_data_per_model": {
+    "MiniMaxAI/MiniMax-M2.7": {
+     "members": 24,
+     "participant_is_member": true,
+     "participant_row": {
+      "member_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+      "weight": "138401",
+      "reputation": 100,
+      "ml_nodes": [
+       {
+        "node_id": "DA-DM-2-day",
+        "throughput": "0",
+        "poc_weight": "14586",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-DM-3-day",
+        "throughput": "0",
+        "poc_weight": "7349",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-DM-4-day",
+        "throughput": "0",
+        "poc_weight": "9874",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-1-day",
+        "throughput": "0",
+        "poc_weight": "7293",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-2-day",
+        "throughput": "0",
+        "poc_weight": "7237",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-3-day",
+        "throughput": "0",
+        "poc_weight": "9705",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-4-day",
+        "throughput": "0",
+        "poc_weight": "9705",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-5-day",
+        "throughput": "0",
+        "poc_weight": "7293",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-52",
+        "throughput": "0",
+        "poc_weight": "12034",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-55",
+        "throughput": "0",
+        "poc_weight": "12034",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-78-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12034",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-79-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12034",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-80-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12034",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "VR-JS-2",
+        "throughput": "0",
+        "poc_weight": "5189",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       }
+      ],
+      "confirmation_weight": "47869",
+      "voting_power": "14670"
+     },
+     "raw_poc_weight_sum": 138401
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-0731": {
+     "members": 7,
+     "participant_is_member": true,
+     "participant_row": {
+      "member_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+      "weight": "3506",
+      "reputation": 100,
+      "ml_nodes": [
+       {
+        "node_id": "CA-LA-1",
+        "throughput": "0",
+        "poc_weight": "3506",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       }
+      ],
+      "confirmation_weight": "47869",
+      "voting_power": "53676"
+     },
+     "raw_poc_weight_sum": 3506
+    },
+    "zai-org/GLM-5.3-Flash": {
+     "members": 7,
+     "participant_is_member": true,
+     "participant_row": {
+      "member_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+      "weight": "7433",
+      "reputation": 100,
+      "ml_nodes": [
+       {
+        "node_id": "vs-glm-4b200-6",
+        "throughput": "0",
+        "poc_weight": "7433",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       }
+      ],
+      "confirmation_weight": "47869",
+      "voting_power": "61705"
+     },
+     "raw_poc_weight_sum": 7433
+    }
+   }
+  },
+  "421": {
+   "poc_stage_start_block_height": 6490966,
+   "store_commits": [
+    {
+     "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "count": 479168,
+     "root_hash": "BWMHd4+h/Z7fQOH8krYOWSRIQ85J3fgb7hKCcycrXB8=",
+     "hex_pub_key": "03ec5f9bf7833eb50bb97742d137907a80818ab2146ecf0bc9389f2701abbe3cc1",
+     "model_id": "MiniMaxAI/MiniMax-M2.7",
+     "tree_depth": 24
+    },
+    {
+     "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "count": 4000,
+     "root_hash": "39PR8iewUhsrdWC3r8Hi+RQLmkCbgkct51sy6+51C9g=",
+     "hex_pub_key": "03ec5f9bf7833eb50bb97742d137907a80818ab2146ecf0bc9389f2701abbe3cc1",
+     "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+     "tree_depth": 24
+    },
+    {
+     "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "count": 8768,
+     "root_hash": "ejDqmY6+ugGO68FWZt2G2MjBNGd//W6qCgKIE8BfuYU=",
+     "hex_pub_key": "03ec5f9bf7833eb50bb97742d137907a80818ab2146ecf0bc9389f2701abbe3cc1",
+     "model_id": "zai-org/GLM-5.3-Flash",
+     "tree_depth": 24
+    }
+   ],
+   "store_commits_total_rows_in_stage": 39,
+   "mlnode_weight_distributions": [
+    {
+     "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "weights": [
+      {
+       "node_id": "RI-NS-101-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-96-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-90-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "DA-FE-4-day",
+       "weight": 8384
+      },
+      {
+       "node_id": "RI-NS-86-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "DA-FE-3-day",
+       "weight": 8256
+      },
+      {
+       "node_id": "RI-NS-84-SINGLE",
+       "weight": 4512
+      },
+      {
+       "node_id": "RI-NS-91-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-104-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-110-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-97-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-93-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "DA-DM-4-day",
+       "weight": 11264
+      },
+      {
+       "node_id": "RI-NS-108-SINGLE",
+       "weight": 13440
+      },
+      {
+       "node_id": "RI-NS-111-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-52",
+       "weight": 13632
+      },
+      {
+       "node_id": "RI-NS-100-SINGLE",
+       "weight": 13632
+      },
+      {
+       "node_id": "RI-NS-80-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-107-SINGLE",
+       "weight": 13344
+      },
+      {
+       "node_id": "RI-NS-78-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "DA-DM-2-day",
+       "weight": 16640
+      },
+      {
+       "node_id": "RI-NS-102-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-105-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-99-SINGLE",
+       "weight": 13344
+      },
+      {
+       "node_id": "DA-FE-6-day",
+       "weight": 8320
+      },
+      {
+       "node_id": "RI-NS-55",
+       "weight": 13728
+      },
+      {
+       "node_id": "DA-DM-3-day",
+       "weight": 8384
+      },
+      {
+       "node_id": "RI-NS-92-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-89-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "DA-DM-1-day",
+       "weight": 8320
+      },
+      {
+       "node_id": "RI-NS-85-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-109-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-79-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-103-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-94-SINGLE",
+       "weight": 13632
+      },
+      {
+       "node_id": "DA-DM-5-day",
+       "weight": 8320
+      },
+      {
+       "node_id": "RI-NS-88-SINGLE",
+       "weight": 13728
+      },
+      {
+       "node_id": "RI-NS-98-SINGLE",
+       "weight": 13728
+      }
+     ],
+     "model_id": "MiniMaxAI/MiniMax-M2.7"
+    },
+    {
+     "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "weights": [
+      {
+       "node_id": "CA-LA-1",
+       "weight": 4000
+      }
+     ],
+     "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+     "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "weights": [
+      {
+       "node_id": "vs-glm-4b200-6",
+       "weight": 8768
+      }
+     ],
+     "model_id": "zai-org/GLM-5.3-Flash"
+    }
+   ],
+   "validations": {
+    "zai-org/GLM-5.3-Flash": {
+     "validators": 24,
+     "valid_votes(validated_weight>0)": 0,
+     "invalid_votes(validated_weight<=0)": 24,
+     "validated_weight_values": [
+      -1
+     ],
+     "by_validator": {
+      "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t": -1,
+      "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le": -1,
+      "gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk": -1,
+      "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk": -1,
+      "gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4": -1,
+      "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y": -1,
+      "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5": -1,
+      "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr": -1,
+      "gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c": -1,
+      "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp": -1,
+      "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh": -1,
+      "gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5": -1,
+      "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589": -1,
+      "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv": -1,
+      "gonka133xdfvcyj2ccv38jrl0qjp970u9lz5plptfwuh": -1,
+      "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst": -1,
+      "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8": -1,
+      "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5": -1,
+      "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum": -1,
+      "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2": -1,
+      "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk": -1,
+      "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq": -1,
+      "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939": -1,
+      "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8": -1
+     }
+    },
+    "MiniMaxAI/MiniMax-M2.7": {
+     "validators": 23,
+     "valid_votes(validated_weight>0)": 23,
+     "invalid_votes(validated_weight<=0)": 0,
+     "validated_weight_values": [
+      200
+     ],
+     "by_validator": {
+      "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t": 200,
+      "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le": 200,
+      "gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk": 200,
+      "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk": 200,
+      "gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4": 200,
+      "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y": 200,
+      "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5": 200,
+      "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr": 200,
+      "gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c": 200,
+      "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp": 200,
+      "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh": 200,
+      "gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5": 200,
+      "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589": 200,
+      "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv": 200,
+      "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst": 200,
+      "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8": 200,
+      "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5": 200,
+      "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum": 200,
+      "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2": 200,
+      "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk": 200,
+      "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq": 200,
+      "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939": 200,
+      "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8": 200
+     }
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-0731": {
+     "validators": 24,
+     "valid_votes(validated_weight>0)": 0,
+     "invalid_votes(validated_weight<=0)": 24,
+     "validated_weight_values": [
+      -1
+     ],
+     "by_validator": {
+      "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t": -1,
+      "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le": -1,
+      "gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk": -1,
+      "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk": -1,
+      "gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4": -1,
+      "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y": -1,
+      "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5": -1,
+      "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr": -1,
+      "gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c": -1,
+      "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp": -1,
+      "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh": -1,
+      "gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5": -1,
+      "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589": -1,
+      "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv": -1,
+      "gonka133xdfvcyj2ccv38jrl0qjp970u9lz5plptfwuh": -1,
+      "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst": -1,
+      "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8": -1,
+      "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5": -1,
+      "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum": -1,
+      "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2": -1,
+      "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk": -1,
+      "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq": -1,
+      "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939": -1,
+      "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8": -1
+     }
+    }
+   },
+   "epoch_group_data_per_model": {
+    "MiniMaxAI/MiniMax-M2.7": {
+     "members": 29,
+     "participant_is_member": true,
+     "participant_row": {
+      "member_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+      "weight": "441709",
+      "reputation": 100,
+      "ml_nodes": [
+       {
+        "node_id": "DA-DM-1-day",
+        "throughput": "0",
+        "poc_weight": "7327",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-DM-2-day",
+        "throughput": "0",
+        "poc_weight": "14654",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-DM-3-day",
+        "throughput": "0",
+        "poc_weight": "7383",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-DM-4-day",
+        "throughput": "0",
+        "poc_weight": "9920",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-DM-5-day",
+        "throughput": "0",
+        "poc_weight": "7327",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-1-day",
+        "throughput": "0",
+        "poc_weight": "7293",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-2-day",
+        "throughput": "0",
+        "poc_weight": "7237",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-3-day",
+        "throughput": "0",
+        "poc_weight": "7271",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-4-day",
+        "throughput": "0",
+        "poc_weight": "7383",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "DA-FE-6-day",
+        "throughput": "0",
+        "poc_weight": "7327",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-100-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12005",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-101-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-102-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-103-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-104-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-105-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-107-SINGLE",
+        "throughput": "0",
+        "poc_weight": "11752",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-108-SINGLE",
+        "throughput": "0",
+        "poc_weight": "11836",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-109-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-110-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-111-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-52",
+        "throughput": "0",
+        "poc_weight": "12005",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-55",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-78-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-79-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-80-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-84-SINGLE",
+        "throughput": "0",
+        "poc_weight": "3973",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-85-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-86-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-88-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-89-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-90-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-91-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-92-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-93-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-94-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12005",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-96-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-97-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-98-SINGLE",
+        "throughput": "0",
+        "poc_weight": "12090",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "RI-NS-99-SINGLE",
+        "throughput": "0",
+        "poc_weight": "11752",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       },
+       {
+        "node_id": "VR-JS-2",
+        "throughput": "0",
+        "poc_weight": "5189",
+        "timeslot_allocation": [
+         true,
+         false
+        ]
+       }
+      ],
+      "confirmation_weight": "133572",
+      "voting_power": "35199"
+     },
+     "raw_poc_weight_sum": 441709
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-0731": {
+     "members": 7,
+     "participant_is_member": false,
+     "participant_row": null,
+     "raw_poc_weight_sum": 0
+    },
+    "zai-org/GLM-5.3-Flash": {
+     "members": 6,
+     "participant_is_member": false,
+     "participant_row": null,
+     "raw_poc_weight_sum": 0
+    }
+   }
+  }
+ },
+ "time_normalization_factor_421": {
+  "method": "poc_weight = trunc(commit_count * f) for every (participant, model, node) row of epoch 421; f is bracketed by all rows (inference-chain/x/inference/module/chainvalidation.go, calculateParticipantWeight)",
+  "rows_used": 166,
+  "f_lower": "0.880697661947662",
+  "f_upper": "0.8806990881458967",
+  "implied_raw_poc_weight_for_participant_commits": {
+   "MiniMaxAI/MiniMax-M2.7": {
+    "commit_count": 479168,
+    "implied_raw_poc_weight": 422002
+   },
+   "deepseek-ai/DeepSeek-V4-Flash-0731": {
+    "commit_count": 4000,
+    "implied_raw_poc_weight": 3522
+   },
+   "zai-org/GLM-5.3-Flash": {
+    "commit_count": 8768,
+    "implied_raw_poc_weight": 7721
+   }
+  }
+ },
+ "participant_record": {
+  "index": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+  "address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+  "weight": -1,
+  "join_time": "1779103481580",
+  "join_height": "4132749",
+  "last_inference_time": "1782681154534",
+  "inference_url": "http://54.38.118.143:8000",
+  "status": "ACTIVE",
+  "coin_balance": "0",
+  "validator_key": "Gw5wjfmpdfIuPMaULbUNvukmB7wSF/A7Qwuhha+ssB4=",
+  "consecutive_invalid_inferences": "0",
+  "worker_public_key": "",
+  "epochs_completed": 2,
+  "current_epoch_stats": {
+   "inference_count": "0",
+   "missed_requests": "0",
+   "earned_coins": "0",
+   "rewarded_coins": "0",
+   "burned_coins": "0",
+   "validated_inferences": "0",
+   "invalidated_inferences": "0",
+   "invalidLLR": {
+    "value": "0",
+    "exponent": 0
+   },
+   "inactiveLLR": {
+    "value": "0",
+    "exponent": 0
+   },
+   "confirmationPoCRatio": null
+  }
+ },
+ "hardware_nodes": {
+  "nodes": {
+   "participant": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+   "hardware_nodes": [
+    {
+     "local_id": "CA-LA-1",
+     "status": "INFERENCE",
+     "models": [
+      "deepseek-ai/DeepSeek-V4-Flash-0731"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H100 80GB HBM3 | 79GB",
+       "count": 4
+      }
+     ],
+     "host": "100.127.81.69",
+     "port": "8080",
+     "version": "3.0.16"
+    },
+    {
+     "local_id": "DA-DM-1-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.117.0.98",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-DM-2-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 4
+      }
+     ],
+     "host": "100.123.85.43",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-DM-3-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.110.207.48",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-DM-5-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.117.118.108",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-1-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.111.238.12",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-2-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.65.50.73",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-3-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.88.197.31",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-4-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.108.213.33",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "DA-FE-6-day",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA H200 | 140GB",
+       "count": 2
+      }
+     ],
+     "host": "100.72.193.84",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-100-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.91.62.35",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-101-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.76.223.95",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-102-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.100.209.90",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-103-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.95.174.49",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-104-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.70.110.78",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-105-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.96.243.32",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-106-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.95.189.14",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-107-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.71.74.47",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-108-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.111.158.25",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-109-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.67.67.61",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-110-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.69.203.2",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-111-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.112.165.92",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-52",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.101.114.66",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-55",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.110.194.20",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-78-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.121.219.87",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-79-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.77.91.32",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-80-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 PC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.111.163.32",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-84-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.101.187.117",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-85-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.109.213.117",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-86-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.127.250.22",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-88-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.78.72.104",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-89-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.85.115.96",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-90-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.65.114.107",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-91-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.114.223.30",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-92-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.85.112.117",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-93-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.111.176.33",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-94-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.119.56.71",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-95-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.64.200.122",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-96-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.96.11.77",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-97-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.99.103.27",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-98-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.126.147.51",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "RI-NS-99-SINGLE",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B300 SXM6 AC | 268GB",
+       "count": 1
+      }
+     ],
+     "host": "100.106.68.112",
+     "port": "8080",
+     "version": "3.1.0"
+    },
+    {
+     "local_id": "VR-JS-2",
+     "status": "INFERENCE",
+     "models": [
+      "MiniMaxAI/MiniMax-M2.7"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA A100-SXM4-80GB | 80GB",
+       "count": 8
+      }
+     ],
+     "host": "100.127.198.56",
+     "port": "8080",
+     "version": "3.0.16"
+    },
+    {
+     "local_id": "vs-glm-4b200-6",
+     "status": "FAILED",
+     "models": [
+      "zai-org/GLM-5.3-Flash"
+     ],
+     "hardware": [
+      {
+       "type": "NVIDIA B200 | 179GB",
+       "count": 4
+      }
+     ],
+     "host": "100.85.208.125",
+     "port": "8080",
+     "version": "3.1.0"
+    }
+   ]
+  }
+ },
+ "confirmation_poc_events_421": {
+  "events": []
+ },
+ "active_confirmation_poc_event": {
+  "is_active": false,
+  "event": null
+ },
+ "poc_validation_snapshot_421": {
+  "snapshot": null,
+  "found": false
+ },
+ "excluded_participants_421": {
+  "items": []
+ },
+ "routes_not_implemented_on_public_gateway": [
+  "/productscience/inference/inference/mlnode_weight_distribution/6490966/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr/deepseek-ai%2FDeepSeek-V4-Flash-0731",
+  "/productscience/inference/inference/mlnode_weight_distribution/6490966/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr/zai-org%2FGLM-5.3-Flash",
+  "/productscience/inference/inference/mlnode_weight_distribution/{height}/{participant}/{model_id} (single-row; the all_ variant above is used instead)",
+  "/productscience/inference/inference/poc_v2_store_commit/6490966/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr/deepseek-ai%2FDeepSeek-V4-Flash-0731",
+  "/productscience/inference/inference/poc_v2_store_commit/6490966/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr/zai-org%2FGLM-5.3-Flash",
+  "/productscience/inference/inference/poc_v2_store_commit/{height}/{participant}/{model_id} (single-row; the all_ variant above is used instead)"
+ ],
+ "sources": [
+  {
+   "route": "/productscience/inference/inference/all_poc_v2_store_commits/6475575",
+   "file": "snapshots/raw/productscience_inference_inference_all_poc_v2_store_commits_6475575.json",
+   "http_status": 200,
+   "query_height": 6493186,
+   "block_time_at_query": "2026-10-10T22:38:40.962556734Z",
+   "fetched_at_utc": "2026-10-10T22:38:46.886303+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/all_mlnode_weight_distributions/6475575",
+   "file": "snapshots/raw/productscience_inference_inference_all_mlnode_weight_distributions_6475575.json",
+   "http_status": 200,
+   "query_height": 6493186,
+   "block_time_at_query": "2026-10-10T22:38:40.962556734Z",
+   "fetched_at_utc": "2026-10-10T22:38:47.342384+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/poc_v2_validations_for_stage/6475575",
+   "file": "snapshots/raw/productscience_inference_inference_poc_v2_validations_for_stage_6475575.json",
+   "http_status": 200,
+   "query_height": 6493186,
+   "block_time_at_query": "2026-10-10T22:38:40.962556734Z",
+   "fetched_at_utc": "2026-10-10T22:38:47.110646+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/epoch_group_data/420?model_id=MiniMaxAI%2FMiniMax-M2.7",
+   "file": "snapshots/raw/productscience_inference_inference_epoch_group_data_420_model_id_MiniMaxAI_2FMiniMax-M2.7.json",
+   "http_status": 200,
+   "query_height": 6493185,
+   "block_time_at_query": "2026-10-10T22:38:35.454295395Z",
+   "fetched_at_utc": "2026-10-10T22:38:45.348863+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/epoch_group_data/420?model_id=deepseek-ai%2FDeepSeek-V4-Flash-0731",
+   "file": "snapshots/raw/productscience_inference_inference_epoch_group_data_420_model_id_deepseek-ai_2FDeepSeek-V4-Flash-0731.json",
+   "http_status": 200,
+   "query_height": 6493185,
+   "block_time_at_query": "2026-10-10T22:38:35.454295395Z",
+   "fetched_at_utc": "2026-10-10T22:38:45.615234+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/epoch_group_data/420?model_id=zai-org%2FGLM-5.3-Flash",
+   "file": "snapshots/raw/productscience_inference_inference_epoch_group_data_420_model_id_zai-org_2FGLM-5.3-Flash.json",
+   "http_status": 200,
+   "query_height": 6493185,
+   "block_time_at_query": "2026-10-10T22:38:35.454295395Z",
+   "fetched_at_utc": "2026-10-10T22:38:45.928228+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/all_poc_v2_store_commits/6490966",
+   "file": "snapshots/raw/productscience_inference_inference_all_poc_v2_store_commits_6490966.json",
+   "http_status": 200,
+   "query_height": 6493182,
+   "block_time_at_query": "2026-10-10T22:38:18.939918023Z",
+   "fetched_at_utc": "2026-10-10T22:38:29.157371+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/all_mlnode_weight_distributions/6490966",
+   "file": "snapshots/raw/productscience_inference_inference_all_mlnode_weight_distributions_6490966.json",
+   "http_status": 200,
+   "query_height": 6493182,
+   "block_time_at_query": "2026-10-10T22:38:18.939918023Z",
+   "fetched_at_utc": "2026-10-10T22:38:29.860609+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/poc_v2_validations_for_stage/6490966",
+   "file": "snapshots/raw/productscience_inference_inference_poc_v2_validations_for_stage_6490966.json",
+   "http_status": 200,
+   "query_height": 6493182,
+   "block_time_at_query": "2026-10-10T22:38:18.939918023Z",
+   "fetched_at_utc": "2026-10-10T22:38:29.421182+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/epoch_group_data/421?model_id=MiniMaxAI%2FMiniMax-M2.7",
+   "file": "snapshots/raw/productscience_inference_inference_epoch_group_data_421_model_id_MiniMaxAI_2FMiniMax-M2.7.json",
+   "http_status": 200,
+   "query_height": 6493185,
+   "block_time_at_query": "2026-10-10T22:38:35.454295395Z",
+   "fetched_at_utc": "2026-10-10T22:38:46.160967+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/epoch_group_data/421?model_id=deepseek-ai%2FDeepSeek-V4-Flash-0731",
+   "file": "snapshots/raw/productscience_inference_inference_epoch_group_data_421_model_id_deepseek-ai_2FDeepSeek-V4-Flash-0731.json",
+   "http_status": 200,
+   "query_height": 6493185,
+   "block_time_at_query": "2026-10-10T22:38:35.454295395Z",
+   "fetched_at_utc": "2026-10-10T22:38:46.432378+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/epoch_group_data/421?model_id=zai-org%2FGLM-5.3-Flash",
+   "file": "snapshots/raw/productscience_inference_inference_epoch_group_data_421_model_id_zai-org_2FGLM-5.3-Flash.json",
+   "http_status": 200,
+   "query_height": 6493185,
+   "block_time_at_query": "2026-10-10T22:38:35.454295395Z",
+   "fetched_at_utc": "2026-10-10T22:38:46.663183+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/participant/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+   "file": "snapshots/raw/productscience_inference_inference_participant_gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr.json",
+   "http_status": 200,
+   "query_height": 6493182,
+   "block_time_at_query": "2026-10-10T22:38:18.939918023Z",
+   "fetched_at_utc": "2026-10-10T22:38:30.144636+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/hardware_nodes/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+   "file": "snapshots/raw/productscience_inference_inference_hardware_nodes_gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr.json",
+   "http_status": 200,
+   "query_height": 6493183,
+   "block_time_at_query": "2026-10-10T22:38:24.489676310Z",
+   "fetched_at_utc": "2026-10-10T22:38:30.356054+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/confirmation_poc_events/421",
+   "file": "snapshots/raw/productscience_inference_inference_confirmation_poc_events_421.json",
+   "http_status": 200,
+   "query_height": 6493183,
+   "block_time_at_query": "2026-10-10T22:38:24.489676310Z",
+   "fetched_at_utc": "2026-10-10T22:38:30.797747+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/active_confirmation_poc_event",
+   "file": "snapshots/raw/productscience_inference_inference_active_confirmation_poc_event.json",
+   "http_status": 200,
+   "query_height": 6493183,
+   "block_time_at_query": "2026-10-10T22:38:24.489676310Z",
+   "fetched_at_utc": "2026-10-10T22:38:31.021703+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/poc_validation_snapshot/6490966",
+   "file": "snapshots/raw/productscience_inference_inference_poc_validation_snapshot_6490966.json",
+   "http_status": 200,
+   "query_height": 6493183,
+   "block_time_at_query": "2026-10-10T22:38:24.489676310Z",
+   "fetched_at_utc": "2026-10-10T22:38:30.575271+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  },
+  {
+   "route": "/productscience/inference/inference/excluded_participants/421",
+   "file": "snapshots/raw/productscience_inference_inference_excluded_participants_421.json",
+   "http_status": 200,
+   "query_height": 6493183,
+   "block_time_at_query": "2026-10-10T22:38:24.489676310Z",
+   "fetched_at_utc": "2026-10-10T22:38:31.239299+00:00",
+   "node": "http://node1.gonka.ai:8000/chain-api"
+  }
+ ]
+}

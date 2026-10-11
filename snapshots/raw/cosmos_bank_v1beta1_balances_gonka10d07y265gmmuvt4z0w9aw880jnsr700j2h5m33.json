@@ -1,0 +1,23 @@
+{
+ "route": "/cosmos/bank/v1beta1/balances/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493251,
+ "latest_block_before_query": {
+  "height": 6493251,
+  "time": "2026-10-10T22:44:24.402394541Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:44:32.095186+00:00",
+ "body": {
+  "balances": [
+   {
+    "denom": "ngonka",
+    "amount": "6074874140360064"
+   }
+  ],
+  "pagination": {
+   "next_key": null,
+   "total": "1"
+  }
+ }
+}

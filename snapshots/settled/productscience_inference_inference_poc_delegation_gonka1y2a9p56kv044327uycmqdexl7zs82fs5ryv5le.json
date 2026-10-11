@@ -1,0 +1,22 @@
+{
+ "route": "/productscience/inference/inference/poc_delegation/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6507167,
+ "latest_block_before_query": {
+  "height": 6507167,
+  "time": "2026-10-11T19:17:43.706125800Z"
+ },
+ "fetched_at_utc": "2026-10-11T19:17:54.977411+00:00",
+ "body": {
+  "delegations": [
+   {
+    "model_id": "MiniMaxAI/MiniMax-M2.7",
+    "delegator": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+    "delegate_to": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp"
+   }
+  ],
+  "refusals": [],
+  "intents": []
+ }
+}

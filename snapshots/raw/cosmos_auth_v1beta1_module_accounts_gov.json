@@ -1,0 +1,26 @@
+{
+ "route": "/cosmos/auth/v1beta1/module_accounts/gov",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493251,
+ "latest_block_before_query": {
+  "height": 6493251,
+  "time": "2026-10-10T22:44:24.402394541Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:44:32.298776+00:00",
+ "body": {
+  "account": {
+   "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+   "base_account": {
+    "address": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "pub_key": null,
+    "account_number": "69",
+    "sequence": "0"
+   },
+   "name": "gov",
+   "permissions": [
+    "burner"
+   ]
+  }
+ }
+}

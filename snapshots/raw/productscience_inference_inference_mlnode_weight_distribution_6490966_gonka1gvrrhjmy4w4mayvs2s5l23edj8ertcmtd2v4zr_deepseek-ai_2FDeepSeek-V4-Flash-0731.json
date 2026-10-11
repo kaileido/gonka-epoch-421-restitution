@@ -1,0 +1,16 @@
+{
+ "route": "/productscience/inference/inference/mlnode_weight_distribution/6490966/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr/deepseek-ai%2FDeepSeek-V4-Flash-0731",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 501,
+ "query_height": null,
+ "latest_block_before_query": {
+  "height": 6493242,
+  "time": "2026-10-10T22:43:37.330160152Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:43:46.322989+00:00",
+ "body": {
+  "code": 12,
+  "message": "Not Implemented",
+  "details": []
+ }
+}

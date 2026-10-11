@@ -1,0 +1,27 @@
+{
+ "route": "/productscience/inference/inference/poc_delegation/gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6507167,
+ "latest_block_before_query": {
+  "height": 6507167,
+  "time": "2026-10-11T19:17:43.706125800Z"
+ },
+ "fetched_at_utc": "2026-10-11T19:17:52.365368+00:00",
+ "body": {
+  "delegations": [
+   {
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "delegator": "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+    "delegate_to": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2"
+   },
+   {
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "delegator": "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+    "delegate_to": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2"
+   }
+  ],
+  "refusals": [],
+  "intents": []
+ }
+}

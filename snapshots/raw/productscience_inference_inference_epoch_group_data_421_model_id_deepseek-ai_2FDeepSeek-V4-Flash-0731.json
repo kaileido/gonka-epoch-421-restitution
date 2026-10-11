@@ -1,0 +1,310 @@
+{
+ "route": "/productscience/inference/inference/epoch_group_data/421?model_id=deepseek-ai%2FDeepSeek-V4-Flash-0731",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493185,
+ "latest_block_before_query": {
+  "height": 6493185,
+  "time": "2026-10-10T22:38:35.454295395Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:46.432378+00:00",
+ "body": {
+  "epoch_group_data": {
+   "poc_start_block_height": "6490966",
+   "epoch_group_id": "1675",
+   "epoch_policy": "gonka1x5ejrl8h69csu43kj0pu2xxjmrwcc7fupl72ekgjqcedq79eufps5zhuxr",
+   "effective_block_height": "0",
+   "last_block_height": "0",
+   "member_seed_signatures": [
+    {
+     "member_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+     "signature": "963213da77f21eaece77e2c8be3c9440a52b6d873521b1d8ccdc1bacbba043ea322d97e63c856d25abb4a059c40556c51ba2e10a033f7aa0b57af69670903737"
+    },
+    {
+     "member_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+     "signature": "3068890815d2399468319ce13c7dd2db0259f8d49bccefe3b1f04abcbbea123d468efd028b9c0efbd12a2a33571e60e623419bc143149258b83b6a94288da26e"
+    },
+    {
+     "member_address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+     "signature": "2af706934a7a8bf3040afb473dfba1c9d1c2b6a09dcd3b15144092766cbee4944723ba400485da333f748d8d8c69c92735ffedcca4b51b5cdae1550a74633ee7"
+    },
+    {
+     "member_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+     "signature": "6b001b7f09cbdeabe4c5116b1efd9d0163cc9f373daefae86773783c49ddfcf12f5116e67bd7aae65eacb9439dea1589a2610cea4c6d18bc588b22efe8d648af"
+    },
+    {
+     "member_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+     "signature": "d7bb123e54f81604b46cf7d99e1dafcdeb168d410cfc76ae5127f54c16e2b28555b8c39a8089eae46061100efa75671767c6e3011e18e12c1e24b2d7848cf1a7"
+    },
+    {
+     "member_address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+     "signature": "2e1204aa0edff8ce646c9280aec4fe522a289d7c74f88d1f3f5bd970b422b331038fb0acc27107c73e17438dc6d004f9f875077b402e8dc0dfcdbf9e8a4a1227"
+    },
+    {
+     "member_address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+     "signature": "42733a54609297471c07e720af9196b9437299691d33344864633c051c18dea73b116d36d2f0ce3e0f7ef5bf259e37b75f70d99a04fcbad16685fefe8393f124"
+    }
+   ],
+   "validation_weights": [
+    {
+     "member_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+     "weight": "138600",
+     "reputation": 29,
+     "ml_nodes": [
+      {
+       "node_id": "AM-1",
+       "throughput": "0",
+       "poc_weight": "69948",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "AMM-4",
+       "throughput": "0",
+       "poc_weight": "68652",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "86576",
+     "voting_power": "86576"
+    },
+    {
+     "member_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+     "weight": "66245",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode-300",
+       "throughput": "0",
+       "poc_weight": "9319",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-301",
+       "throughput": "0",
+       "poc_weight": "9666",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-302",
+       "throughput": "0",
+       "poc_weight": "9553",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-303",
+       "throughput": "0",
+       "poc_weight": "9593",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-328",
+       "throughput": "0",
+       "poc_weight": "9172",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-400",
+       "throughput": "0",
+       "poc_weight": "9565",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-428",
+       "throughput": "0",
+       "poc_weight": "9377",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "93925",
+     "voting_power": "96266"
+    },
+    {
+     "member_address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+     "weight": "7355",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode-4",
+       "throughput": "0",
+       "poc_weight": "7355",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "3396",
+     "voting_power": "3254"
+    },
+    {
+     "member_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+     "weight": "23699",
+     "reputation": 0,
+     "ml_nodes": [
+      {
+       "node_id": "4xB300",
+       "throughput": "0",
+       "poc_weight": "12653",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "inference-2",
+       "throughput": "0",
+       "poc_weight": "3494",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-2",
+       "throughput": "0",
+       "poc_weight": "7552",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "11394",
+     "voting_power": "13156"
+    },
+    {
+     "member_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+     "weight": "134908",
+     "reputation": 29,
+     "ml_nodes": [
+      {
+       "node_id": "AM-3",
+       "throughput": "0",
+       "poc_weight": "69215",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "FTT-1",
+       "throughput": "0",
+       "poc_weight": "65693",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "84077",
+     "voting_power": "122622"
+    },
+    {
+     "member_address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+     "weight": "9074",
+     "reputation": 1,
+     "ml_nodes": [
+      {
+       "node_id": "node6",
+       "throughput": "0",
+       "poc_weight": "9074",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "16277",
+     "voting_power": "14942"
+    },
+    {
+     "member_address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+     "weight": "3860",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode-3",
+       "throughput": "0",
+       "poc_weight": "3860",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "2450",
+     "voting_power": "2446"
+    }
+   ],
+   "unit_of_compute_price": "0",
+   "number_of_requests": "0",
+   "previous_epoch_requests": "0",
+   "validation_params": null,
+   "total_weight": "383741",
+   "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+   "sub_group_models": [],
+   "epoch_index": "421",
+   "model_snapshot": {
+    "proposed_by": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "units_of_compute_per_token": "10000",
+    "context_window": "0",
+    "quantization": "",
+    "coins_per_input_token": "0",
+    "coins_per_output_token": "0",
+    "hf_repo": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "hf_commit": "7872f01b1d1fe23eabc4c98b48bffcef5a386062",
+    "model_args": [
+     "--max-model-len",
+     "400000",
+     "--kv-cache-dtype",
+     "fp8",
+     "--tokenizer-mode",
+     "deepseek_v4",
+     "--enable-auto-tool-choice",
+     "--tool-call-parser",
+     "deepseek_v4",
+     "--reasoning-parser",
+     "deepseek_v4",
+     "--trust-remote-code"
+    ],
+    "v_ram": "280",
+    "throughput_per_nonce": "1700",
+    "validation_threshold": {
+     "value": "900",
+     "exponent": -3
+    }
+   },
+   "total_throughput": "0",
+   "confirmation_weight_scales": [],
+   "dynamic_coefficient_params": null
+  }
+ }
+}

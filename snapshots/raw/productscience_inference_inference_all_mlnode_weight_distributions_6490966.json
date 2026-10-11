@@ -1,0 +1,921 @@
+{
+ "route": "/productscience/inference/inference/all_mlnode_weight_distributions/6490966",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493182,
+ "latest_block_before_query": {
+  "height": 6493182,
+  "time": "2026-10-10T22:38:18.939918023Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:29.860609+00:00",
+ "body": {
+  "distributions": [
+   {
+    "participant_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+    "weights": [
+     {
+      "node_id": "node1",
+      "weight": 4096
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+    "weights": [
+     {
+      "node_id": "node5",
+      "weight": 3152
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t",
+    "weights": [
+     {
+      "node_id": "x65",
+      "weight": 13312
+     },
+     {
+      "node_id": "x60",
+      "weight": 13312
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+    "weights": [
+     {
+      "node_id": "node-235b-1",
+      "weight": 5280
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+    "weights": [
+     {
+      "node_id": "mlnode-3",
+      "weight": 4384
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk",
+    "weights": [
+     {
+      "node_id": "node204",
+      "weight": 16128
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+    "weights": [
+     {
+      "node_id": "node5",
+      "weight": 9568
+     },
+     {
+      "node_id": "node3",
+      "weight": 10656
+     },
+     {
+      "node_id": "node4",
+      "weight": 10624
+     },
+     {
+      "node_id": "node1",
+      "weight": 10528
+     },
+     {
+      "node_id": "node2",
+      "weight": 10528
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
+    "weights": [
+     {
+      "node_id": "node6",
+      "weight": 10304
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4",
+    "weights": [
+     {
+      "node_id": "w4",
+      "weight": 14336
+     },
+     {
+      "node_id": "n26",
+      "weight": 14336
+     },
+     {
+      "node_id": "w3",
+      "weight": 14336
+     },
+     {
+      "node_id": "w23",
+      "weight": 13824
+     },
+     {
+      "node_id": "w6",
+      "weight": 13312
+     },
+     {
+      "node_id": "w11",
+      "weight": 13312
+     },
+     {
+      "node_id": "w5",
+      "weight": 13312
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y",
+    "weights": [
+     {
+      "node_id": "node802",
+      "weight": 16416
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5",
+    "weights": [
+     {
+      "node_id": "node2",
+      "weight": 3424
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "weights": [
+     {
+      "node_id": "RI-NS-101-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-96-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-90-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "DA-FE-4-day",
+      "weight": 8384
+     },
+     {
+      "node_id": "RI-NS-86-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "DA-FE-3-day",
+      "weight": 8256
+     },
+     {
+      "node_id": "RI-NS-84-SINGLE",
+      "weight": 4512
+     },
+     {
+      "node_id": "RI-NS-91-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-104-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-110-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-97-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-93-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "DA-DM-4-day",
+      "weight": 11264
+     },
+     {
+      "node_id": "RI-NS-108-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-111-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-52",
+      "weight": 13632
+     },
+     {
+      "node_id": "RI-NS-100-SINGLE",
+      "weight": 13632
+     },
+     {
+      "node_id": "RI-NS-80-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-107-SINGLE",
+      "weight": 13344
+     },
+     {
+      "node_id": "RI-NS-78-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "DA-DM-2-day",
+      "weight": 16640
+     },
+     {
+      "node_id": "RI-NS-102-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-105-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-99-SINGLE",
+      "weight": 13344
+     },
+     {
+      "node_id": "DA-FE-6-day",
+      "weight": 8320
+     },
+     {
+      "node_id": "RI-NS-55",
+      "weight": 13728
+     },
+     {
+      "node_id": "DA-DM-3-day",
+      "weight": 8384
+     },
+     {
+      "node_id": "RI-NS-92-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-89-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "DA-DM-1-day",
+      "weight": 8320
+     },
+     {
+      "node_id": "RI-NS-85-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-109-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-79-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-103-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-94-SINGLE",
+      "weight": 13632
+     },
+     {
+      "node_id": "DA-DM-5-day",
+      "weight": 8320
+     },
+     {
+      "node_id": "RI-NS-88-SINGLE",
+      "weight": 13728
+     },
+     {
+      "node_id": "RI-NS-98-SINGLE",
+      "weight": 13728
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "weights": [
+     {
+      "node_id": "CA-LA-1",
+      "weight": 4000
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "weights": [
+     {
+      "node_id": "vs-glm-4b200-6",
+      "weight": 8768
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka1ts6k67zt064z87rx9hztm93cd3yh5mkqje6z4c",
+    "weights": [
+     {
+      "node_id": "node731",
+      "weight": 15624
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+    "weights": [
+     {
+      "node_id": "minimax-1",
+      "weight": 5280
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp",
+    "weights": [
+     {
+      "node_id": "mlnode-4",
+      "weight": 8352
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+    "weights": [
+     {
+      "node_id": "ml-gmn-h100-7",
+      "weight": 18368
+     },
+     {
+      "node_id": "B200-ME-PAIR-1",
+      "weight": 18432
+     },
+     {
+      "node_id": "B200-ME-1",
+      "weight": 67488
+     },
+     {
+      "node_id": "ml-gmn-h100-5",
+      "weight": 17664
+     },
+     {
+      "node_id": "ml-gmn-h100-6",
+      "weight": 18272
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5",
+    "weights": [
+     {
+      "node_id": "lan2152",
+      "weight": 15360
+     },
+     {
+      "node_id": "x19",
+      "weight": 13824
+     },
+     {
+      "node_id": "x18",
+      "weight": 13824
+     },
+     {
+      "node_id": "x48",
+      "weight": 14336
+     },
+     {
+      "node_id": "x38",
+      "weight": 13824
+     },
+     {
+      "node_id": "x22",
+      "weight": 14336
+     },
+     {
+      "node_id": "x52",
+      "weight": 13312
+     },
+     {
+      "node_id": "x43",
+      "weight": 13824
+     },
+     {
+      "node_id": "x13",
+      "weight": 13824
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1s9tqdht34yrdvcstyytmqzaqqup2ms7jjy9589",
+    "weights": [
+     {
+      "node_id": "aa-11",
+      "weight": 15264
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+    "weights": [
+     {
+      "node_id": "RI-NS-54",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-121-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "EN-H200-PAIR-1",
+      "weight": 12288
+     },
+     {
+      "node_id": "RI-NS-127-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-57",
+      "weight": 13344
+     },
+     {
+      "node_id": "RI-NS-123-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "DA-PR-1-day",
+      "weight": 32256
+     },
+     {
+      "node_id": "RI-NS-130-SINGLE",
+      "weight": 13248
+     },
+     {
+      "node_id": "RI-NS-56",
+      "weight": 13344
+     },
+     {
+      "node_id": "RI-NS-118-SINGLE",
+      "weight": 13248
+     },
+     {
+      "node_id": "DA-PR-3-day",
+      "weight": 8192
+     },
+     {
+      "node_id": "RI-NS-129-SINGLE",
+      "weight": 13344
+     },
+     {
+      "node_id": "RI-NS-124-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-61",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-126-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-115-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-81-SINGLE",
+      "weight": 13344
+     },
+     {
+      "node_id": "RI-NS-131-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-125-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-53",
+      "weight": 13344
+     },
+     {
+      "node_id": "RI-NS-58",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-128-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-82-SINGLE",
+      "weight": 13248
+     },
+     {
+      "node_id": "RI-NS-59",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-71",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-132-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-136-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-114-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-113-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-119-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-116-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-122-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-135-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-120-SINGLE",
+      "weight": 13440
+     },
+     {
+      "node_id": "RI-NS-60",
+      "weight": 13344
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "weights": [
+     {
+      "node_id": "AM-2",
+      "weight": 40640
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "weights": [
+     {
+      "node_id": "FTT-1",
+      "weight": 74592
+     },
+     {
+      "node_id": "AM-3",
+      "weight": 78592
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "weights": [
+     {
+      "node_id": "AM-5",
+      "weight": 30752
+     },
+     {
+      "node_id": "AM-8",
+      "weight": 30432
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "weights": [
+     {
+      "node_id": "AM-2",
+      "weight": 41984
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "weights": [
+     {
+      "node_id": "AM-1",
+      "weight": 79424
+     },
+     {
+      "node_id": "AMM-4",
+      "weight": 77952
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "weights": [
+     {
+      "node_id": "AM-7",
+      "weight": 31456
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "weights": [
+     {
+      "node_id": "node-minimax",
+      "weight": 5792
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "weights": [
+     {
+      "node_id": "inference-2",
+      "weight": 3968
+     },
+     {
+      "node_id": "mlnode-2",
+      "weight": 8576
+     },
+     {
+      "node_id": "4xB300",
+      "weight": 14368
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+    "weights": [
+     {
+      "node_id": "mlnode5",
+      "weight": 5728
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum",
+    "weights": [
+     {
+      "node_id": "FTJ11",
+      "weight": 30016
+     },
+     {
+      "node_id": "FTJ-15",
+      "weight": 30336
+     },
+     {
+      "node_id": "FTJ-14",
+      "weight": 30048
+     },
+     {
+      "node_id": "FTJ-10",
+      "weight": 30432
+     },
+     {
+      "node_id": "FTJ-19",
+      "weight": 30528
+     },
+     {
+      "node_id": "FTJ12",
+      "weight": 30496
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "weights": [
+     {
+      "node_id": "mlnode-996",
+      "weight": 15776
+     },
+     {
+      "node_id": "mlnode-994",
+      "weight": 15776
+     },
+     {
+      "node_id": "mlnode-991",
+      "weight": 15264
+     },
+     {
+      "node_id": "mlnode-997",
+      "weight": 15776
+     },
+     {
+      "node_id": "mlnode-362",
+      "weight": 13824
+     },
+     {
+      "node_id": "mlnode-360",
+      "weight": 13728
+     },
+     {
+      "node_id": "mlnode-993",
+      "weight": 15776
+     },
+     {
+      "node_id": "mlnode-995",
+      "weight": 15776
+     },
+     {
+      "node_id": "mlnode-992",
+      "weight": 15776
+     },
+     {
+      "node_id": "mlnode-990",
+      "weight": 15264
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "weights": [
+     {
+      "node_id": "mlnode-302",
+      "weight": 10848
+     },
+     {
+      "node_id": "mlnode-301",
+      "weight": 10976
+     }
+    ],
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731"
+   },
+   {
+    "participant_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+    "weights": [
+     {
+      "node_id": "mlnode-30",
+      "weight": 9536
+     },
+     {
+      "node_id": "mlnode-31",
+      "weight": 9600
+     },
+     {
+      "node_id": "mlnode-36",
+      "weight": 9376
+     },
+     {
+      "node_id": "mlnode-37",
+      "weight": 9280
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "weights": [
+     {
+      "node_id": "FTJ-7",
+      "weight": 29280
+     },
+     {
+      "node_id": "FTJ-6",
+      "weight": 29312
+     },
+     {
+      "node_id": "FTJ-8",
+      "weight": 29344
+     },
+     {
+      "node_id": "FTJ-3",
+      "weight": 29600
+     },
+     {
+      "node_id": "FTJ-5",
+      "weight": 29728
+     },
+     {
+      "node_id": "FTJ-9",
+      "weight": 29408
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "weights": [
+     {
+      "node_id": "FTJ-1-1",
+      "weight": 9120
+     }
+    ],
+    "model_id": "zai-org/GLM-5.3-Flash"
+   },
+   {
+    "participant_address": "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq",
+    "weights": [
+     {
+      "node_id": "node9",
+      "weight": 14336
+     },
+     {
+      "node_id": "node7",
+      "weight": 13824
+     },
+     {
+      "node_id": "node8",
+      "weight": 13312
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939",
+    "weights": [
+     {
+      "node_id": "node382",
+      "weight": 16560
+     },
+     {
+      "node_id": "node237",
+      "weight": 16488
+     },
+     {
+      "node_id": "node217",
+      "weight": 31968
+     },
+     {
+      "node_id": "node227",
+      "weight": 31680
+     },
+     {
+      "node_id": "node207",
+      "weight": 32328
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   },
+   {
+    "participant_address": "gonka1a5dgp5cul6tn0jrdzs6usrm3jtg7w63nqaygd8",
+    "weights": [
+     {
+      "node_id": "node10",
+      "weight": 11136
+     },
+     {
+      "node_id": "node5",
+      "weight": 10944
+     }
+    ],
+    "model_id": "MiniMaxAI/MiniMax-M2.7"
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "route": "/productscience/inference/inference/participant/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493182,
+ "latest_block_before_query": {
+  "height": 6493182,
+  "time": "2026-10-10T22:38:18.939918023Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:30.144636+00:00",
+ "body": {
+  "participant": {
+   "index": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+   "address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+   "weight": -1,
+   "join_time": "1779103481580",
+   "join_height": "4132749",
+   "last_inference_time": "1782681154534",
+   "inference_url": "http://54.38.118.143:8000",
+   "status": "ACTIVE",
+   "coin_balance": "0",
+   "validator_key": "Gw5wjfmpdfIuPMaULbUNvukmB7wSF/A7Qwuhha+ssB4=",
+   "consecutive_invalid_inferences": "0",
+   "worker_public_key": "",
+   "epochs_completed": 2,
+   "current_epoch_stats": {
+    "inference_count": "0",
+    "missed_requests": "0",
+    "earned_coins": "0",
+    "rewarded_coins": "0",
+    "burned_coins": "0",
+    "validated_inferences": "0",
+    "invalidated_inferences": "0",
+    "invalidLLR": {
+     "value": "0",
+     "exponent": 0
+    },
+    "inactiveLLR": {
+     "value": "0",
+     "exponent": 0
+    },
+    "confirmationPoCRatio": null
+   }
+  }
+ }
+}

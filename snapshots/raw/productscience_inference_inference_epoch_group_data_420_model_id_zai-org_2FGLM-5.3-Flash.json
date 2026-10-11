@@ -1,0 +1,281 @@
+{
+ "route": "/productscience/inference/inference/epoch_group_data/420?model_id=zai-org%2FGLM-5.3-Flash",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493185,
+ "latest_block_before_query": {
+  "height": 6493185,
+  "time": "2026-10-10T22:38:35.454295395Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:45.928228+00:00",
+ "body": {
+  "epoch_group_data": {
+   "poc_start_block_height": "6475575",
+   "epoch_group_id": "1672",
+   "epoch_policy": "gonka1x59gctehsj6femkwcqq9sxwd3qph2fklsh8kqdk572j0lwzs20lscdc2m4",
+   "effective_block_height": "0",
+   "last_block_height": "0",
+   "member_seed_signatures": [
+    {
+     "member_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+     "signature": "8021225f9bcea316b42d0649afaf5cd2474c3ae256e8f505204305b7b74dd83a2761e452cad9ddd171de8a40b9e7463c8e988efb4d6e5eef1a28bc72cfcf9b52"
+    },
+    {
+     "member_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+     "signature": "5bd5855899a02231fcc33d7bea350b626e5db8a958235887d15f4983f315509f40a3d0cb0891bc9d10bdea7d64fee374acac19b514d60b794a8651066a0f9f75"
+    },
+    {
+     "member_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+     "signature": "55162c836d53ebe84437a3b94a73911ce34c56fa338a754411f812e6eb646bef2c27f6c8c4eba82e99d174b36e61c053ef7f2d15f096615b076df30ba6b2360b"
+    },
+    {
+     "member_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "signature": "d3fd151180138e0246f36d2220447dc5da9b6db9fdb8037ea5af50f0755e19de5525a16b189b50f93dfecc09fed2f67c1d5bc9eb94ce1a3f86d0935cc2fdc248"
+    },
+    {
+     "member_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+     "signature": "88f2b12c80bc9228854f2e3fb8444a7f56bbf2fd2608f6cd257bfa503060c36125c96a748c61df1c255391a1ff54195c38c2f408f50caf00b3027dc739896768"
+    },
+    {
+     "member_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+     "signature": "6fb482fd2f172f76822ea34d13fa62fde46786d8e5cee54e0c0f55fdbe9de1503d56e2291f92f038b672954795dd2ab511153db86b9e2bebe2dff11cab1feda8"
+    },
+    {
+     "member_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+     "signature": "c5945020649943db461148d95d32dc59e0c690c285a1bd4cec867d1e51a9bdb41316d677502bb356a9eace608018665532671535e74a8c0611f5212c16737d9f"
+    }
+   ],
+   "validation_weights": [
+    {
+     "member_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+     "weight": "55875",
+     "reputation": 26,
+     "ml_nodes": [
+      {
+       "node_id": "AM-6",
+       "throughput": "0",
+       "poc_weight": "27855",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "AM-7",
+       "throughput": "0",
+       "poc_weight": "28020",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "86682",
+     "voting_power": "81849"
+    },
+    {
+     "member_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+     "weight": "51162",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode-30",
+       "throughput": "0",
+       "poc_weight": "8639",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-31",
+       "throughput": "0",
+       "poc_weight": "8611",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-36",
+       "throughput": "0",
+       "poc_weight": "8415",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-37",
+       "throughput": "0",
+       "poc_weight": "8331",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-43",
+       "throughput": "0",
+       "poc_weight": "8583",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-44",
+       "throughput": "0",
+       "poc_weight": "8583",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "112432",
+     "voting_power": "99867"
+    },
+    {
+     "member_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+     "weight": "7994",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "FTJ-1-1",
+       "throughput": "0",
+       "poc_weight": "7994",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "52114",
+     "voting_power": "104339"
+    },
+    {
+     "member_address": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+     "weight": "7433",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "vs-glm-4b200-6",
+       "throughput": "0",
+       "poc_weight": "7433",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "47869",
+     "voting_power": "61705"
+    },
+    {
+     "member_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+     "weight": "4937",
+     "reputation": 0,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode5",
+       "throughput": "0",
+       "poc_weight": "4937",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "11433",
+     "voting_power": "14267"
+    },
+    {
+     "member_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+     "weight": "55205",
+     "reputation": 26,
+     "ml_nodes": [
+      {
+       "node_id": "AM-5",
+       "throughput": "0",
+       "poc_weight": "27799",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "AM-8",
+       "throughput": "0",
+       "poc_weight": "27406",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "87776",
+     "voting_power": "83829"
+    },
+    {
+     "member_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+     "weight": "2735",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "node5",
+       "throughput": "0",
+       "poc_weight": "2735",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "2916",
+     "voting_power": "2785"
+    }
+   ],
+   "unit_of_compute_price": "0",
+   "number_of_requests": "0",
+   "previous_epoch_requests": "0",
+   "validation_params": null,
+   "total_weight": "185341",
+   "model_id": "zai-org/GLM-5.3-Flash",
+   "sub_group_models": [],
+   "epoch_index": "420",
+   "model_snapshot": {
+    "proposed_by": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "id": "zai-org/GLM-5.3-Flash",
+    "units_of_compute_per_token": "10000",
+    "context_window": "0",
+    "quantization": "",
+    "coins_per_input_token": "0",
+    "coins_per_output_token": "0",
+    "hf_repo": "zai-org/GLM-5.3-Flash",
+    "hf_commit": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+    "model_args": [
+     "--max-model-len",
+     "400000",
+     "--kv-cache-dtype",
+     "fp8",
+     "--enable-auto-tool-choice",
+     "--tool-call-parser",
+     "glm47",
+     "--reasoning-parser",
+     "glm45",
+     "--trust-remote-code"
+    ],
+    "v_ram": "560",
+    "throughput_per_nonce": "1500",
+    "validation_threshold": {
+     "value": "951",
+     "exponent": -3
+    }
+   },
+   "total_throughput": "0",
+   "confirmation_weight_scales": [],
+   "dynamic_coefficient_params": null
+  }
+ }
+}

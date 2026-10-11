@@ -1,0 +1,21 @@
+{
+ "route": "/productscience/inference/inference/estimate_bitcoin_reward/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493190,
+ "latest_block_before_query": {
+  "height": 6493190,
+  "time": "2026-10-10T22:39:00.163577566Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:39:06.276505+00:00",
+ "body": {
+  "settle_amount": {
+   "participant": "gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le",
+   "reward_coins": "639058017983",
+   "work_coins": "0",
+   "epoch_index": "421",
+   "seed_signature": "",
+   "last_claim_attempt": "0"
+  }
+ }
+}

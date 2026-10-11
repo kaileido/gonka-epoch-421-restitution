@@ -1,0 +1,23 @@
+{
+ "route": "/cosmos/distribution/v1beta1/community_pool",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493251,
+ "latest_block_before_query": {
+  "height": 6493251,
+  "time": "2026-10-10T22:44:24.402394541Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:44:31.884847+00:00",
+ "body": {
+  "pool": [
+   {
+    "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+    "amount": "10000000000.000000000000000000"
+   },
+   {
+    "denom": "ngonka",
+    "amount": "102705109798398193.213382776456378876"
+   }
+  ]
+ }
+}

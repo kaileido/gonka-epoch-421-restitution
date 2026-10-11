@@ -1,0 +1,14 @@
+{
+ "route": "/productscience/inference/inference/all_mlnode_weight_distributions/6475575",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493186,
+ "latest_block_before_query": {
+  "height": 6493186,
+  "time": "2026-10-10T22:38:40.962556734Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:47.342384+00:00",
+ "body": {
+  "distributions": []
+ }
+}

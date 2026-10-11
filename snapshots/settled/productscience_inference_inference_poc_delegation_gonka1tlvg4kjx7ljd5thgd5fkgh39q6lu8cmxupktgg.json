@@ -1,0 +1,37 @@
+{
+ "route": "/productscience/inference/inference/poc_delegation/gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6507166,
+ "latest_block_before_query": {
+  "height": 6507166,
+  "time": "2026-10-11T19:17:41.233397072Z"
+ },
+ "fetched_at_utc": "2026-10-11T19:17:45.814921+00:00",
+ "body": {
+  "delegations": [
+   {
+    "model_id": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+    "delegator": "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg",
+    "delegate_to": "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah"
+   },
+   {
+    "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "delegator": "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg",
+    "delegate_to": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2"
+   },
+   {
+    "model_id": "moonshotai/Kimi-K2.6",
+    "delegator": "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg",
+    "delegate_to": "gonka1l6emtgat9xn9yr8q9lcg2ph6qkqgnkdg8xwa3d"
+   },
+   {
+    "model_id": "zai-org/GLM-5.3-Flash",
+    "delegator": "gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg",
+    "delegate_to": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2"
+   }
+  ],
+  "refusals": [],
+  "intents": []
+ }
+}

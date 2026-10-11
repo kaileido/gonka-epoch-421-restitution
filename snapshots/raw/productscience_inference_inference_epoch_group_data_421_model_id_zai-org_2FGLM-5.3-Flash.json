@@ -1,0 +1,241 @@
+{
+ "route": "/productscience/inference/inference/epoch_group_data/421?model_id=zai-org%2FGLM-5.3-Flash",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6493185,
+ "latest_block_before_query": {
+  "height": 6493185,
+  "time": "2026-10-10T22:38:35.454295395Z"
+ },
+ "fetched_at_utc": "2026-10-10T22:38:46.663183+00:00",
+ "body": {
+  "epoch_group_data": {
+   "poc_start_block_height": "6490966",
+   "epoch_group_id": "1676",
+   "epoch_policy": "gonka13klt0ln8y2rhmg9h030m793t3qxsu888j3h8ymfjwxqngs22ew3sfq2nhh",
+   "effective_block_height": "0",
+   "last_block_height": "0",
+   "member_seed_signatures": [
+    {
+     "member_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+     "signature": "963213da77f21eaece77e2c8be3c9440a52b6d873521b1d8ccdc1bacbba043ea322d97e63c856d25abb4a059c40556c51ba2e10a033f7aa0b57af69670903737"
+    },
+    {
+     "member_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+     "signature": "3068890815d2399468319ce13c7dd2db0259f8d49bccefe3b1f04abcbbea123d468efd028b9c0efbd12a2a33571e60e623419bc143149258b83b6a94288da26e"
+    },
+    {
+     "member_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+     "signature": "1002e4d81f0dd0b256554baa1fbf36f4e053c47a81bd1d589d7347df020cd044136c563567006b45c6b1d6405bafb00a2e6d74a370c4e556e6d9f00620d28759"
+    },
+    {
+     "member_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+     "signature": "6b001b7f09cbdeabe4c5116b1efd9d0163cc9f373daefae86773783c49ddfcf12f5116e67bd7aae65eacb9439dea1589a2610cea4c6d18bc588b22efe8d648af"
+    },
+    {
+     "member_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+     "signature": "d7bb123e54f81604b46cf7d99e1dafcdeb168d410cfc76ae5127f54c16e2b28555b8c39a8089eae46061100efa75671767c6e3011e18e12c1e24b2d7848cf1a7"
+    },
+    {
+     "member_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+     "signature": "d0c0f9c541106157ca997a023413f10dfb0d049b718af3295cbaee0fb6f33c0d2727ab04ab01d720d2cb6121594b5cc73a48bc127f89d761ada3d732f60e87b3"
+    }
+   ],
+   "validation_weights": [
+    {
+     "member_address": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+     "weight": "55558",
+     "reputation": 29,
+     "ml_nodes": [
+      {
+       "node_id": "AM-6",
+       "throughput": "0",
+       "poc_weight": "27855",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "AM-7",
+       "throughput": "0",
+       "poc_weight": "27703",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "86576",
+     "voting_power": "86576"
+    },
+    {
+     "member_address": "gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2",
+     "weight": "33281",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode-30",
+       "throughput": "0",
+       "poc_weight": "8398",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-31",
+       "throughput": "0",
+       "poc_weight": "8454",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-36",
+       "throughput": "0",
+       "poc_weight": "8257",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "mlnode-37",
+       "throughput": "0",
+       "poc_weight": "8172",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "93925",
+     "voting_power": "111208"
+    },
+    {
+     "member_address": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+     "weight": "8031",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "FTJ-1-1",
+       "throughput": "0",
+       "poc_weight": "8031",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "52528",
+     "voting_power": "106050"
+    },
+    {
+     "member_address": "gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5",
+     "weight": "5044",
+     "reputation": 0,
+     "ml_nodes": [
+      {
+       "node_id": "mlnode5",
+       "throughput": "0",
+       "poc_weight": "5044",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "11394",
+     "voting_power": "14789"
+    },
+    {
+     "member_address": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+     "weight": "53884",
+     "reputation": 29,
+     "ml_nodes": [
+      {
+       "node_id": "AM-5",
+       "throughput": "0",
+       "poc_weight": "27083",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      },
+      {
+       "node_id": "AM-8",
+       "throughput": "0",
+       "poc_weight": "26801",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "84077",
+     "voting_power": "83560"
+    },
+    {
+     "member_address": "gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl",
+     "weight": "2775",
+     "reputation": 100,
+     "ml_nodes": [
+      {
+       "node_id": "node5",
+       "throughput": "0",
+       "poc_weight": "2775",
+       "timeslot_allocation": [
+        true,
+        false
+       ]
+      }
+     ],
+     "confirmation_weight": "2982",
+     "voting_power": "2889"
+    }
+   ],
+   "unit_of_compute_price": "0",
+   "number_of_requests": "0",
+   "previous_epoch_requests": "0",
+   "validation_params": null,
+   "total_weight": "158573",
+   "model_id": "zai-org/GLM-5.3-Flash",
+   "sub_group_models": [],
+   "epoch_index": "421",
+   "model_snapshot": {
+    "proposed_by": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "id": "zai-org/GLM-5.3-Flash",
+    "units_of_compute_per_token": "10000",
+    "context_window": "0",
+    "quantization": "",
+    "coins_per_input_token": "0",
+    "coins_per_output_token": "0",
+    "hf_repo": "zai-org/GLM-5.3-Flash",
+    "hf_commit": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+    "model_args": [
+     "--max-model-len",
+     "400000",
+     "--kv-cache-dtype",
+     "fp8",
+     "--enable-auto-tool-choice",
+     "--tool-call-parser",
+     "glm47",
+     "--reasoning-parser",
+     "glm45",
+     "--trust-remote-code"
+    ],
+    "v_ram": "560",
+    "throughput_per_nonce": "1500",
+    "validation_threshold": {
+     "value": "951",
+     "exponent": -3
+    }
+   },
+   "total_throughput": "0",
+   "confirmation_weight_scales": [],
+   "dynamic_coefficient_params": null
+  }
+ }
+}

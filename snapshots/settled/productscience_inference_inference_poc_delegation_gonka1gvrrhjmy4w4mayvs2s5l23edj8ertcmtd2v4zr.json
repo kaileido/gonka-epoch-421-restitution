@@ -1,0 +1,22 @@
+{
+ "route": "/productscience/inference/inference/poc_delegation/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+ "node": "http://node1.gonka.ai:8000/chain-api",
+ "http_status": 200,
+ "query_height": 6507166,
+ "latest_block_before_query": {
+  "height": 6507166,
+  "time": "2026-10-11T19:17:41.233397072Z"
+ },
+ "fetched_at_utc": "2026-10-11T19:17:44.507073+00:00",
+ "body": {
+  "delegations": [
+   {
+    "model_id": "zai-org/GLM-5.2-FP8",
+    "delegator": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+    "delegate_to": "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum"
+   }
+  ],
+  "refusals": [],
+  "intents": []
+ }
+}
