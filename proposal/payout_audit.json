@@ -1,0 +1,41 @@
+{
+  "incident_epoch": 421,
+  "settled_at_block": 6506756,
+  "snapshot_heights": [
+    6507164,
+    6507167
+  ],
+  "vesting_epochs": 180,
+  "recipients": 5,
+  "chain_total_ngonka": 32723422557135,
+  "chain_total_gonka": "32723.422557135",
+  "source": "python3 recalc.py --settled snapshots/settled --joint (outputs/recalc-settled-joint.json)",
+  "self_check": "29 members compared: 28 exact, 29 within 1 ngonka",
+  "payouts": [
+    {
+      "recipient": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+      "amount_ngonka": 25543824728805,
+      "amount_gonka": "25543.824728805"
+    },
+    {
+      "recipient": "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+      "amount_ngonka": 5765476743246,
+      "amount_gonka": "5765.476743246"
+    },
+    {
+      "recipient": "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+      "amount_ngonka": 1360462307311,
+      "amount_gonka": "1360.462307311"
+    },
+    {
+      "recipient": "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh",
+      "amount_ngonka": 43095726979,
+      "amount_gonka": "43.095726979"
+    },
+    {
+      "recipient": "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah",
+      "amount_ngonka": 10563050794,
+      "amount_gonka": "10.563050794"
+    }
+  ]
+}

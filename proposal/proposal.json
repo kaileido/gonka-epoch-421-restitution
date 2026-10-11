@@ -1,0 +1,60 @@
+{
+  "messages": [
+    {
+      "@type": "/inference.streamvesting.MsgBatchTransferWithVesting",
+      "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+      "outputs": [
+        {
+          "recipient": "gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr",
+          "amount": [
+            {
+              "denom": "ngonka",
+              "amount": "25543824728805"
+            }
+          ]
+        },
+        {
+          "recipient": "gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv",
+          "amount": [
+            {
+              "denom": "ngonka",
+              "amount": "5765476743246"
+            }
+          ]
+        },
+        {
+          "recipient": "gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh",
+          "amount": [
+            {
+              "denom": "ngonka",
+              "amount": "1360462307311"
+            }
+          ]
+        },
+        {
+          "recipient": "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh",
+          "amount": [
+            {
+              "denom": "ngonka",
+              "amount": "43095726979"
+            }
+          ]
+        },
+        {
+          "recipient": "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah",
+          "amount": [
+            {
+              "denom": "ngonka",
+              "amount": "10563050794"
+            }
+          ]
+        }
+      ],
+      "vesting_epochs": "180"
+    }
+  ],
+  "metadata": "https://github.com/kaileido/gonka-epoch-421-restitution",
+  "deposit": "500000000000ngonka",
+  "title": "Restitution for epoch 421 porosity false rejection",
+  "summary": "Restitution for epoch 421, where a PoC nonce stride shared across models made the per-model porosity check reject valid DeepSeek-V4-Flash-0731 and GLM-5.3-Flash commits of gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr, which was voted out of both subgroups (cause and fix: gonka-ai/gonka#1978). Pays that address and the four delegators whose delegations to it were voided and penalised, 32,723.422557135 GNK in total, each amount being the epoch 421 reward the address would have received without the incident minus the reward the chain settled, from one joint recalculation of the epoch that reproduces all 29 members' settled rewards within 1 ngonka. Paid as a GNK vesting transfer from the governance module account over 180 epochs. Snapshots, script and derivation: https://github.com/kaileido/gonka-epoch-421-restitution"
+}
