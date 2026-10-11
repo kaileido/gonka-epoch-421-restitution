@@ -16,16 +16,16 @@ This is an independent governance proposal. It is not submitted through the GRC 
 
 ## Requested amounts
 
-| Recipient | Settled reward (chain `rewarded_coins`, ngonka) | Counterfactual reward (ngonka) | Loss (ngonka) | Loss (GNK) |
-|---|---:|---:|---:|---:|
-| `gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr` | 20,721,371,863,954 | 46,265,196,592,759 | 25,543,824,728,805 | 25,543.824728805 |
-| `gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv` | 20,850,840,171,006 | 26,616,316,914,252 | 5,765,476,743,246 | 5,765.476743246 |
-| `gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh` | 4,919,795,667,970 | 6,280,257,975,281 | 1,360,462,307,311 | 1,360.462307311 |
-| `gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh` | 404,971,955,707 | 448,067,682,686 | 43,095,726,979 | 43.095726979 |
-| `gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah` | 98,788,613,437 | 109,351,664,231 | 10,563,050,794 | 10.563050794 |
-| Total | | | 32,723,422,557,135 | 32,723.422557135 |
+| Recipient | Amount (ngonka) | Amount (GNK) |
+|---|---:|---:|
+| `gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr` | 25,543,824,728,805 | 25,543.824728805 |
+| `gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv` | 5,765,476,743,246 | 5,765.476743246 |
+| `gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh` | 1,360,462,307,311 | 1,360.462307311 |
+| `gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh` | 43,095,726,979 | 43.095726979 |
+| `gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah` | 10,563,050,794 | 10.563050794 |
+| Total | 32,723,422,557,135 | 32,723.422557135 |
 
-Each loss is the address's reward in one joint counterfactual for the whole epoch minus the reward the chain actually settled for it.
+Each amount is the reward the address would have received in epoch 421 without the incident minus the reward the chain actually paid it. The derivation per address is in [Derivation per recipient](#derivation-per-recipient).
 
 ## Summary
 
@@ -166,6 +166,19 @@ transfer= trunc(0.05 * post-penalty weight) per valid delegation edge, only to a
 reward  = trunc(reward_weight * F / T),  T = sum of all members' full weights (never renormalised)
 ```
 
+### Derivation per recipient
+
+Actual is the reward the chain settled (`rewarded_coins` in `snapshots/settled/`); counterfactual is the reward in one joint recalculation of the whole epoch without the incident.
+
+| Recipient | Settled reward (chain `rewarded_coins`, ngonka) | Counterfactual reward (ngonka) | Loss (ngonka) | Loss (GNK) |
+|---|---:|---:|---:|---:|
+| `gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr` | 20,721,371,863,954 | 46,265,196,592,759 | 25,543,824,728,805 | 25,543.824728805 |
+| `gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv` | 20,850,840,171,006 | 26,616,316,914,252 | 5,765,476,743,246 | 5,765.476743246 |
+| `gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh` | 4,919,795,667,970 | 6,280,257,975,281 | 1,360,462,307,311 | 1,360.462307311 |
+| `gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh` | 404,971,955,707 | 448,067,682,686 | 43,095,726,979 | 43.095726979 |
+| `gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah` | 98,788,613,437 | 109,351,664,231 | 10,563,050,794 | 10.563050794 |
+| Total | | | 32,723,422,557,135 | 32,723.422557135 |
+
 ### Delegator mechanism in the chain code
 
 The chain resolves each address's mode per model in `ResolveGroupParticipation` (`module/delegation_weight_calculator.go`): a delegation counts only if its target is a member of the model's subgroup and participates; otherwise the delegator is NONE. NONE adds the no-participation penalty (`AccumulateDelegationPenalties`, `module/delegation_weight_adjustment.go`), and only DELEGATE edges produce transfers (`BuildDelegationRewardTransfers`). Both are built once at epoch formation (`runWeightPipeline`, `module/module.go`) and applied at settlement (`applyDelegationRewardPenalties`, `applyDelegationRewardTransfers`, `keeper/bitcoin_rewards.go`).
@@ -192,7 +205,7 @@ Most of the loss is the penalty, the confirmation ratio and the delegation trans
 
 ## Requested spend
 
-The requested total is 32,723,422,557,135 ngonka (32,723.422557135 GNK), paid to five recipients in the amounts of the [Requested amounts](#requested-amounts) table. It is a vesting transfer from the governance module account, the same form as the passed restitution proposal 110 (`snapshots/raw/cosmos_gov_v1_proposals_110.json`). The lost rewards would themselves have vested over `reward_vesting_period` = 180 epochs, so the payment vests over the epochs that remain of that period.
+The requested total is 32,723,422,557,135 ngonka (32,723.422557135 GNK), paid to five recipients in the amounts of the [Requested amounts](#requested-amounts) table. It is a vesting transfer from the governance module account, the same form as the passed restitution proposal 110 (`snapshots/raw/cosmos_gov_v1_proposals_110.json`). The payment vests over 180 epochs, the same `reward_vesting_period` that applies to epoch rewards.
 
 ```json
 {
@@ -205,7 +218,7 @@ The requested total is 32,723,422,557,135 ngonka (32,723.422557135 GNK), paid to
     {"recipient": "gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh", "amount": [{"denom": "ngonka", "amount": "43095726979"}]},
     {"recipient": "gonka1w29nvdy6caqtrw30whz9h6ghl0xszwh3egndah", "amount": [{"denom": "ngonka", "amount": "10563050794"}]}
   ],
-  "vesting_epochs": "<180 - (submission epoch - 421)>"
+  "vesting_epochs": "180"
 }
 ```
 
