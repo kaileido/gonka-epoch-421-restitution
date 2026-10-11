@@ -205,7 +205,7 @@ Most of the loss is the penalty, the confirmation ratio and the delegation trans
 
 ## Requested spend
 
-The requested total is 32,723,422,557,135 ngonka (32,723.422557135 GNK), paid to five recipients in the amounts of the [Requested amounts](#requested-amounts) table. It is a vesting transfer from the governance module account, the same form as the passed restitution proposal 110 (`snapshots/raw/cosmos_gov_v1_proposals_110.json`). The payment vests over 180 epochs, the same `reward_vesting_period` that applies to epoch rewards. The submit-ready proposal is [`proposal/proposal.json`](proposal/proposal.json) (deposit 500,000 GNK, the current `min_deposit`), and [`proposal/payout_audit.json`](proposal/payout_audit.json) lists the same payouts with their source.
+The requested total is 32,723,422,557,135 ngonka (32,723.422557135 GNK), paid to five recipients in the amounts of the [Requested amounts](#requested-amounts) table. It is a vesting transfer from the governance module account, the same form as the passed restitution proposal 110 (`snapshots/raw/cosmos_gov_v1_proposals_110.json`). The payment vests over 180 epochs, the same `reward_vesting_period` that applies to epoch rewards. The submit-ready proposal is [`proposal/proposal.json`](proposal/proposal.json) (deposit 500 GNK, the current `min_deposit` of 500,000,000,000 ngonka), and [`proposal/payout_audit.json`](proposal/payout_audit.json) lists the same payouts with their source.
 
 ```json
 {
